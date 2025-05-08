@@ -1,0 +1,501 @@
+raceId,year,round,date,name,circuitRef,country,driverRef,code,constructorRef,grid,positionOrder,points,laps,statusId,milliseconds,rank,fastestLapSpeed
+324,1990,4,1990-05-27,Monaco Grand Prix,monaco,Monaco,grouillard,\N,osella,0,28,0.0,0,81,\N,\N,\N
+376,1988,5,1988-06-12,Canadian Grand Prix,villeneuve,Canada,mansell,\N,williams,9,21,0.0,28,5,\N,\N,\N
+31,2008,14,2008-09-14,Italian Grand Prix,monza,Italy,fisichella,FIS,force_india,12,20,0.0,11,3,\N,20,214.326
+241,1995,2,1995-04-09,Argentine Grand Prix,galvez,Argentina,badoer,BAD,minardi,13,26,0.0,0,4,\N,\N,\N
+455,1983,4,1983-05-01,San Marino Grand Prix,imola,Italy,piquet,\N,brabham,2,16,0.0,41,5,\N,\N,\N
+719,1963,1,1963-05-26,Monaco Grand Prix,monaco,Monaco,mairesse,\N,ferrari,7,11,0.0,37,6,\N,\N,\N
+839,1950,7,1950-09-03,Italian Grand Prix,monza,Italy,farina,\N,alfa,3,1,8.0,80,1,10277400,\N,\N
+743,1961,6,1961-08-06,German Grand Prix,nurburgring,Germany,trips,\N,ferrari,5,2,6.0,15,1,8313800,\N,\N
+537,1978,11,1978-07-30,German Grand Prix,hockenheimring,Germany,mario_andretti,\N,team_lotus,1,1,9.0,45,1,5280900,\N,\N
+670,1968,4,1968-06-09,Belgian Grand Prix,spa,Belgium,amon,\N,ferrari,1,12,0.0,8,21,\N,\N,\N
+582,1975,7,1975-06-08,Swedish Grand Prix,anderstorp,Sweden,palm,\N,hesketh,21,10,0.0,78,60,\N,\N,\N
+217,1997,11,1997-08-10,Hungarian Grand Prix,hungaroring,Hungary,coulthard,COU,mclaren,8,14,0.0,65,10,\N,\N,\N
+1099,2023,2,2023-03-19,Saudi Arabian Grand Prix,jeddah,Saudi Arabia,max_verstappen,VER,red_bull,15,2,19.0,50,1,4880249,1,241.838
+534,1978,8,1978-06-17,Swedish Grand Prix,anderstorp,Sweden,emerson_fittipaldi,\N,fittipaldi,13,6,1.0,69,11,\N,\N,\N
+397,1987,10,1987-08-16,Austrian Grand Prix,red_bull_ring,Austria,brundle,\N,zakspeed,17,15,0.0,48,2,\N,\N,\N
+377,1988,6,1988-06-19,Detroit Grand Prix,detroit,USA,caffi,\N,dallara,21,8,0.0,61,12,\N,\N,\N
+154,2001,14,2001-09-02,Belgian Grand Prix,spa,Belgium,villeneuve,VIL,bar,6,8,0.0,36,1,4149972,\N,\N
+800,1954,2,1954-05-31,Indianapolis 500,indianapolis,USA,nazaruk,\N,kurtis_kraft,14,5,2.0,200,1,13961820,\N,\N
+19,2008,2,2008-03-23,Malaysian Grand Prix,sepang,Malaysia,rosberg,ROS,williams,16,14,0.0,55,11,\N,13,206.182
+197,1998,7,1998-06-07,Canadian Grand Prix,villeneuve,Canada,nakano,\N,minardi,18,7,0.0,68,11,\N,\N,\N
+1043,2020,13,2020-11-01,Emilia Romagna Grand Prix,imola,Italy,kevin_magnussen,MAG,haas,17,18,0.0,47,139,\N,18,222.930
+752,1960,7,1960-07-16,British Grand Prix,silverstone,UK,brooks,\N,cooper-climax,9,5,2.0,76,11,\N,\N,\N
+341,2010,5,2010-05-09,Spanish Grand Prix,catalunya,Spain,button,BUT,mclaren,5,5,10.0,66,1,5807829,4,196.768
+364,1989,9,1989-07-30,German Grand Prix,hockenheimring,Germany,berger,\N,ferrari,4,20,0.0,13,20,\N,\N,\N
+714,1964,6,1964-08-02,German Grand Prix,nurburgring,Germany,andre_pilette,\N,scirocco,0,23,0.0,0,81,\N,\N,\N
+950,2016,3,2016-04-17,Chinese Grand Prix,shanghai,China,rosberg,ROS,mercedes,1,1,25.0,56,1,5933891,6,195.419
+1120,2023,22,2023-11-26,Abu Dhabi Grand Prix,yas_marina,UAE,hamilton,HAM,mercedes,11,9,2.0,58,1,5267048,10,215.131
+425,1985,6,1985-06-23,Detroit Grand Prix,detroit,USA,senna,\N,team_lotus,1,13,0.0,51,3,\N,\N,\N
+336,1990,16,1990-11-04,Australian Grand Prix,adelaide,Australia,tarquini,\N,ags,26,16,0.0,58,5,\N,\N,\N
+488,1981,6,1981-05-31,Monaco Grand Prix,monaco,Monaco,serra,\N,fittipaldi,0,24,0.0,0,81,\N,\N,\N
+161,2000,4,2000-04-23,British Grand Prix,silverstone,UK,herbert,\N,jaguar,14,12,0.0,59,11,\N,\N,\N
+931,2015,6,2015-05-24,Monaco Grand Prix,monaco,Monaco,raikkonen,RAI,ferrari,6,6,8.0,78,1,6572765,10,150.822
+678,1968,12,1968-11-03,Mexican Grand Prix,rodriguez,Mexico,hulme,\N,mclaren-ford,4,18,0.0,10,22,\N,\N,\N
+574,1976,15,1976-10-10,United States Grand Prix,watkins_glen,USA,ribeiro,\N,hesketh,22,12,0.0,57,12,\N,\N,\N
+681,1967,3,1967-06-04,Dutch Grand Prix,zandvoort,Netherlands,anderson,\N,brabham-climax,17,9,0.0,86,14,\N,\N,\N
+296,1992,8,1992-07-05,French Grand Prix,magny_cours,France,alboreto,\N,footwork,14,7,0.0,68,11,\N,\N,\N
+417,1986,14,1986-09-21,Portuguese Grand Prix,estoril,Portugal,streiff,\N,tyrrell,23,22,0.0,28,5,\N,\N,\N
+703,1965,5,1965-07-10,British Grand Prix,silverstone,UK,anderson,\N,brabham-climax,17,17,0.0,33,6,\N,\N,\N
+456,1983,5,1983-05-15,Monaco Grand Prix,monaco,Monaco,keke_rosberg,\N,williams,5,1,9.0,76,1,6998121,\N,\N
+851,2011,11,2011-07-31,Hungarian Grand Prix,hungaroring,Hungary,alonso,ALO,ferrari,5,3,15.0,70,1,6422156,3,188.405
+94,2004,5,2004-05-09,Spanish Grand Prix,catalunya,Spain,raikkonen,RAI,mclaren,13,11,0.0,65,11,\N,11,211.273
+706,1965,8,1965-09-12,Italian Grand Prix,monza,Italy,clark,\N,lotus-climax,1,10,0.0,63,48,\N,\N,\N
+642,1971,11,1971-10-03,United States Grand Prix,watkins_glen,USA,posey,\N,surtees,17,25,0.0,15,5,\N,\N,\N
+969,2017,1,2017-03-26,Australian Grand Prix,albert_park,Australia,massa,MAS,williams,7,6,8.0,57,1,5135058,9,216.830
+178,1999,4,1999-05-16,Monaco Grand Prix,monaco,Monaco,badoer,BAD,minardi,20,21,0.0,10,6,\N,\N,\N
+295,1992,7,1992-06-14,Canadian Grand Prix,villeneuve,Canada,belmondo,\N,march,20,14,0.0,64,15,\N,\N,\N
+343,2010,7,2010-05-30,Turkish Grand Prix,istanbul,Turkey,rosberg,ROS,mercedes,6,5,10.0,58,1,5359886,9,213.574
+519,1979,8,1979-07-01,French Grand Prix,dijon,France,patrese,\N,arrows,19,14,0.0,77,13,\N,\N,\N
+261,1994,5,1994-05-29,Spanish Grand Prix,catalunya,Spain,belmondo,\N,pacific,26,25,0.0,2,20,\N,\N,\N
+1100,2023,3,2023-04-02,Australian Grand Prix,albert_park,Australia,stroll,STR,aston_martin,6,4,12.0,58,1,9161453,6,234.769
+422,1985,3,1985-05-05,San Marino Grand Prix,imola,Italy,alboreto,\N,ferrari,4,14,0.0,29,10,\N,\N,\N
+216,1997,10,1997-07-27,German Grand Prix,hockenheimring,Germany,diniz,\N,arrows,16,18,0.0,8,3,\N,\N,\N
+1035,2020,5,2020-08-09,70th Anniversary Grand Prix,silverstone,UK,gasly,GAS,alphatauri,7,11,0.0,52,1,4852635,7,235.399
+103,2004,14,2004-08-29,Belgian Grand Prix,spa,Belgium,sato,SAT,bar,15,18,0.0,0,4,\N,\N,\N
+552,1977,10,1977-07-16,British Grand Prix,silverstone,UK,reutemann,\N,ferrari,14,15,0.0,62,16,\N,\N,\N
+551,1977,9,1977-07-03,French Grand Prix,dijon,France,ertl,\N,hesketh,0,26,0.0,0,81,\N,\N,\N
+1018,2019,9,2019-06-30,Austrian Grand Prix,red_bull_ring,Austria,grosjean,GRO,haas,11,16,0.0,70,11,\N,12,225.329
+588,1975,13,1975-09-07,Italian Grand Prix,monza,Italy,trimmer,\N,maki,0,28,0.0,0,81,\N,\N,\N
+870,2012,11,2012-07-29,Hungarian Grand Prix,hungaroring,Hungary,perez,PER,sauber,14,14,0.0,69,1,6129997,2,185.073
+966,2016,19,2016-10-30,Mexican Grand Prix,rodriguez,Mexico,nasr,NAS,sauber,19,15,0.0,70,11,\N,15,185.213
+895,2013,15,2013-10-13,Japanese Grand Prix,suzuka,Japan,grosjean,GRO,lotus_f1,4,3,15.0,53,1,5219211,10,217.782
+358,1989,3,1989-05-07,Monaco Grand Prix,monaco,Monaco,herbert,\N,benetton,24,14,0.0,73,14,\N,\N,\N
+438,1984,3,1984-04-29,Belgian Grand Prix,zolder,Belgium,senna,\N,toleman,19,6,1.0,68,12,\N,\N,\N
+816,1953,9,1953-09-13,Italian Grand Prix,monza,Italy,maglioli,\N,ferrari,11,8,0.0,75,15,\N,\N,\N
+396,1987,9,1987-08-09,Hungarian Grand Prix,hungaroring,Hungary,berger,\N,ferrari,2,24,0.0,13,24,\N,\N,\N
+888,2013,9,2013-07-07,German Grand Prix,nurburgring,Germany,chilton,CHI,marussia,21,19,0.0,59,11,\N,18,188.374
+1063,2021,12,2021-08-29,Belgian Grand Prix,spa,Belgium,vettel,VET,aston_martin,5,5,5.0,1,1,214550,0,\N
+1036,2020,6,2020-08-16,Spanish Grand Prix,catalunya,Spain,perez,PER,racing_point,4,5,10.0,65,11,\N,16,203.090
+757,1959,2,1959-05-30,Indianapolis 500,indianapolis,USA,larson,\N,kurtis_kraft,19,29,0.0,45,3,\N,\N,\N
+863,2012,4,2012-04-22,Bahrain Grand Prix,bahrain,Bahrain,kovalainen,KOV,caterham,16,17,0.0,56,11,\N,19,197.917
+1029,2019,20,2019-11-17,Brazilian Grand Prix,interlagos,Brazil,hamilton,HAM,mercedes,3,7,6.0,71,1,5605817,3,218.232
+408,1986,5,1986-05-25,Belgian Grand Prix,spa,Belgium,dumfries,\N,team_lotus,13,21,0.0,7,20,\N,\N,\N
+479,1982,13,1982-08-15,Austrian Grand Prix,red_bull_ring,Austria,alboreto,\N,tyrrell,8,22,0.0,1,20,\N,\N,\N
+1084,2022,11,2022-07-10,Austrian Grand Prix,red_bull_ring,Austria,stroll,STR,aston_martin,12,13,0.0,70,11,\N,17,221.916
+188,1999,14,1999-09-26,European Grand Prix,nurburgring,Germany,irvine,\N,ferrari,9,7,0.0,66,1,6180997,\N,\N
+392,1987,5,1987-06-21,Detroit Grand Prix,detroit,USA,alboreto,\N,ferrari,7,17,0.0,25,6,\N,\N,\N
+483,1981,1,1981-03-15,United States Grand Prix West,long_beach,USA,gabbiani,\N,osella,24,18,0.0,26,3,\N,\N,\N
+380,1988,9,1988-07-24,German Grand Prix,hockenheimring,Germany,berger,\N,ferrari,3,3,4.0,44,1,5626283,\N,\N
+1066,2021,15,2021-09-26,Russian Grand Prix,sochi,Russia,sainz,SAI,ferrari,2,3,15.0,53,1,5503476,12,212.024
+815,1953,8,1953-08-23,Swiss Grand Prix,bremgarten,Switzerland,lang,\N,maserati,11,5,2.0,62,13,\N,\N,\N
+826,1951,2,1951-05-30,Indianapolis 500,indianapolis,USA,ward,\N,bromme,25,27,0.0,34,108,\N,\N,\N
+1017,2019,8,2019-06-23,French Grand Prix,ricard,France,vettel,VET,ferrari,7,5,11.0,53,1,5133994,1,226.775
+760,1959,5,1959-07-18,British Grand Prix,aintree,UK,flockhart,\N,brm,11,16,0.0,53,20,\N,\N,\N
+777,1957,2,1957-05-19,Monaco Grand Prix,monaco,Monaco,schell,\N,maserati,8,12,0.0,23,22,\N,\N,\N
+230,1996,7,1996-06-02,Spanish Grand Prix,catalunya,Spain,barrichello,BAR,jordan,7,8,0.0,45,24,\N,\N,\N
+297,1992,9,1992-07-12,British Grand Prix,silverstone,UK,moreno,\N,moda,0,31,0.0,0,97,\N,\N,\N
+776,1957,1,1957-01-13,Argentine Grand Prix,galvez,Argentina,gonzalez,\N,ferrari,10,5,1.0,98,12,\N,\N,\N
+405,1986,2,1986-04-13,Spanish Grand Prix,jerez,Spain,keke_rosberg,\N,mclaren,5,4,3.0,71,11,\N,\N,\N
+315,1991,11,1991-08-25,Belgian Grand Prix,spa,Belgium,caffi,\N,footwork,0,29,0.0,0,81,\N,\N,\N
+658,1969,3,1969-05-18,Monaco Grand Prix,monaco,Monaco,amon,\N,ferrari,2,11,0.0,16,24,\N,\N,\N
+775,1958,11,1958-10-19,Moroccan Grand Prix,ain-diab,Morocco,fairman,\N,cooper,11,8,0.0,50,13,\N,\N,\N
+246,1995,7,1995-07-02,French Grand Prix,magny_cours,France,boullion,\N,sauber,15,18,0.0,48,6,\N,\N,\N
+680,1967,2,1967-05-07,Monaco Grand Prix,monaco,Monaco,courage,\N,brm,13,8,0.0,64,20,\N,\N,\N
+97,2004,8,2004-06-13,Canadian Grand Prix,villeneuve,Canada,button,BUT,bar,2,3,6.0,70,1,5325212,5,211.453
+13,2009,13,2009-09-13,Italian Grand Prix,monza,Italy,liuzzi,LIU,force_india,7,17,0.0,22,7,\N,17,242.382
+1078,2022,5,2022-05-08,Miami Grand Prix,miami,USA,leclerc,LEC,ferrari,1,2,18.0,57,1,5668044,2,212.959
+991,2018,3,2018-04-15,Chinese Grand Prix,shanghai,China,sainz,SAI,renault,9,9,2.0,56,1,5772143,11,200.744
+814,1953,7,1953-08-02,German Grand Prix,nurburgring,Germany,alan_brown,\N,cooper,17,18,0.0,15,5,\N,\N,\N
+735,1962,7,1962-09-16,Italian Grand Prix,monza,Italy,mairesse,\N,ferrari,10,4,3.0,86,1,9006600,\N,\N
+203,1998,13,1998-08-30,Belgian Grand Prix,spa,Belgium,villeneuve,VIL,williams,6,13,0.0,16,20,\N,\N,\N
+307,1991,3,1991-04-28,San Marino Grand Prix,imola,Italy,berger,\N,mclaren,5,2,6.0,61,1,5716425,\N,\N
+718,1964,10,1964-10-25,Mexican Grand Prix,rodriguez,Mexico,sharp,\N,brabham-brm,19,13,0.0,60,15,\N,\N,\N
+1107,2023,9,2023-07-02,Austrian Grand Prix,red_bull_ring,Austria,kevin_magnussen,MAG,haas,0,18,0.0,70,11,\N,19,221.511
+352,2010,16,2010-10-10,Japanese Grand Prix,suzuka,Japan,buemi,BUE,toro_rosso,18,10,1.0,53,1,5500129,8,219.786
+872,2012,13,2012-09-09,Italian Grand Prix,monza,Italy,petrov,PET,caterham,18,15,0.0,52,11,\N,15,234.149
+346,2010,10,2010-07-11,British Grand Prix,silverstone,UK,kobayashi,KOB,sauber,12,6,8.0,52,1,5110371,10,226.678
+694,1966,5,1966-07-24,Dutch Grand Prix,zandvoort,Netherlands,hill,\N,brm,7,2,6.0,89,11,\N,\N,\N
+167,2000,10,2000-07-16,Austrian Grand Prix,red_bull_ring,Austria,verstappen,\N,arrows,10,18,0.0,14,5,\N,\N,\N
+862,2012,3,2012-04-15,Chinese Grand Prix,shanghai,China,massa,MAS,ferrari,12,13,0.0,56,1,5829708,14,193.832
+911,2014,12,2014-08-24,Belgian Grand Prix,spa,Belgium,raikkonen,RAI,ferrari,8,4,12.0,44,1,5113371,13,221.004
+2,2009,2,2009-04-05,Malaysian Grand Prix,sepang,Malaysia,alonso,ALO,renault,9,11,0.0,31,11,\N,9,201.551
+268,1994,12,1994-09-11,Italian Grand Prix,monza,Italy,barrichello,BAR,jordan,16,4,3.0,53,1,4733834,\N,\N
+74,2005,4,2005-04-24,San Marino Grand Prix,imola,Italy,villeneuve,VIL,sauber,11,4,5.0,62,1,5326363,10,211.371
+749,1960,4,1960-06-06,Dutch Grand Prix,zandvoort,Netherlands,ginther,\N,ferrari,12,6,1.0,74,11,\N,\N,\N
+746,1960,1,1960-02-07,Argentine Grand Prix,galvez,Argentina,moss,\N,cooper-climax,1,17,0.0,40,22,\N,\N,\N
+321,1990,1,1990-03-11,United States Grand Prix,phoenix,USA,alesi,\N,tyrrell,4,2,6.0,72,1,6761514,\N,\N
+343,2010,7,2010-05-30,Turkish Grand Prix,istanbul,Turkey,buemi,BUE,toro_rosso,14,16,0.0,57,11,\N,5,214.501
+728,1963,10,1963-12-28,South African Grand Prix,george,South Africa,love,\N,cooper-climax,13,9,0.0,80,15,\N,\N,\N
+253,1995,14,1995-10-01,European Grand Prix,nurburgring,Germany,damon_hill,\N,williams,2,16,0.0,58,20,\N,\N,\N
+194,1998,4,1998-04-26,San Marino Grand Prix,imola,Italy,fisichella,FIS,benetton,10,18,0.0,17,20,\N,\N,\N
+221,1997,15,1997-09-28,Luxembourg Grand Prix,nurburgring,Germany,panis,\N,prost,11,6,1.0,67,1,5531593,\N,\N
+453,1983,2,1983-03-27,United States Grand Prix West,long_beach,USA,warwick,\N,toleman,6,25,0.0,11,20,\N,\N,\N
+552,1977,10,1977-07-16,British Grand Prix,silverstone,UK,mass,\N,mclaren,11,4,3.0,68,1,5553820,\N,\N
+292,1992,4,1992-05-03,Spanish Grand Prix,catalunya,Spain,moreno,\N,moda,0,31,0.0,0,97,\N,\N,\N
+200,1998,10,1998-07-26,Austrian Grand Prix,red_bull_ring,Austria,barrichello,BAR,stewart,5,18,0.0,8,23,\N,\N,\N
+1141,2024,21,2024-11-03,São Paulo Grand Prix,interlagos,Brazil,sainz,SAI,ferrari,0,16,0.0,38,3,\N,17,184.230
+831,1951,7,1951-09-16,Italian Grand Prix,monza,Italy,ascari,\N,ferrari,3,1,8.0,80,1,9759300,\N,\N
+156,2001,16,2001-09-30,United States Grand Prix,indianapolis,USA,enge,\N,prost,21,14,0.0,72,11,\N,\N,\N
+325,1990,5,1990-06-10,Canadian Grand Prix,villeneuve,Canada,boutsen,\N,williams,6,22,0.0,19,4,\N,\N,\N
+649,1970,7,1970-07-18,British Grand Prix,brands_hatch,UK,gurney,\N,mclaren-ford,11,11,0.0,60,51,\N,\N,\N
+194,1998,4,1998-04-26,San Marino Grand Prix,imola,Italy,irvine,\N,ferrari,4,3,4.0,62,1,5717175,\N,\N
+347,2010,11,2010-07-25,German Grand Prix,hockenheimring,Germany,rosberg,ROS,mercedes,9,8,4.0,66,11,\N,8,214.940
+910,2014,11,2014-07-27,Hungarian Grand Prix,hungaroring,Hungary,gutierrez,GUT,sauber,13,17,0.0,33,31,\N,18,174.300
+1081,2022,8,2022-06-12,Azerbaijan Grand Prix,baku,Azerbaijan,tsunoda,TSU,alphatauri,8,13,0.0,50,11,\N,5,200.987
+492,1981,10,1981-08-02,German Grand Prix,hockenheimring,Germany,borgudd,\N,ats,28,17,0.0,35,5,\N,\N,\N
+445,1984,10,1984-07-22,British Grand Prix,brands_hatch,UK,ghinzani,\N,osella,21,9,0.0,68,13,\N,\N,\N
+355,2010,19,2010-11-14,Abu Dhabi Grand Prix,yas_marina,UAE,kubica,KUB,renault,11,5,10.0,55,1,6015863,5,196.499
+656,1969,1,1969-03-01,South African Grand Prix,kyalami,South Africa,mario_andretti,\N,lotus-ford,6,15,0.0,31,6,\N,\N,\N
+133,2002,10,2002-07-07,British Grand Prix,silverstone,UK,button,BUT,renault,12,12,0.0,54,36,\N,\N,\N
+375,1988,4,1988-05-29,Mexican Grand Prix,rodriguez,Mexico,boutsen,\N,benetton,11,8,0.0,64,13,\N,\N,\N
+398,1987,11,1987-09-06,Italian Grand Prix,monza,Italy,capelli,\N,march,25,13,0.0,47,13,\N,\N,\N
+670,1968,4,1968-06-09,Belgian Grand Prix,spa,Belgium,bonnier,\N,mclaren-brm,16,18,0.0,1,36,\N,\N,\N
+1037,2020,7,2020-08-30,Belgian Grand Prix,spa,Belgium,norris,NOR,mclaren,10,7,6.0,44,1,5092535,11,232.279
+326,1990,6,1990-06-24,Mexican Grand Prix,rodriguez,Mexico,boutsen,\N,williams,5,5,2.0,69,1,5602452,\N,\N
+1069,2021,17,2021-10-24,United States Grand Prix,americas,USA,giovinazzi,GIO,alfa,12,11,0.0,55,11,\N,12,196.221
+113,2003,6,2003-05-18,Austrian Grand Prix,red_bull_ring,Austria,alonso,ALO,renault,19,16,0.0,44,5,\N,\N,\N
+559,1977,17,1977-10-23,Japanese Grand Prix,fuji,Japan,gilles_villeneuve,\N,ferrari,20,19,0.0,5,3,\N,\N,\N
+460,1983,9,1983-07-16,British Grand Prix,silverstone,UK,tambay,\N,ferrari,2,3,4.0,67,1,5106026,\N,\N
+226,1996,3,1996-04-07,Argentine Grand Prix,galvez,Argentina,frentzen,\N,sauber,11,17,0.0,32,20,\N,\N,\N
+531,1978,5,1978-05-07,Monaco Grand Prix,monaco,Monaco,reutemann,\N,ferrari,1,8,0.0,74,11,\N,\N,\N
+380,1988,9,1988-07-24,German Grand Prix,hockenheimring,Germany,capelli,\N,march,7,5,2.0,44,1,5683794,\N,\N
+845,2011,5,2011-05-22,Spanish Grand Prix,catalunya,Spain,perez,PER,sauber,12,9,2.0,65,11,\N,6,192.075
+410,1986,7,1986-06-22,Detroit Grand Prix,detroit,USA,nannini,\N,minardi,24,25,0.0,3,101,\N,\N,\N
+994,2018,6,2018-05-27,Monaco Grand Prix,monaco,Monaco,hulkenberg,HUL,renault,11,8,4.0,78,1,6199646,6,157.941
+204,1998,14,1998-09-13,Italian Grand Prix,monza,Italy,frentzen,\N,williams,12,7,0.0,52,11,\N,\N,\N
+547,1977,5,1977-05-08,Spanish Grand Prix,jarama,Spain,ian_scheckter,\N,march,17,11,0.0,72,13,\N,\N,\N
+382,1988,11,1988-08-28,Belgian Grand Prix,spa,Belgium,larrauri,\N,eurobrun,0,31,0.0,0,97,\N,\N,\N
+374,1988,3,1988-05-15,Monaco Grand Prix,monaco,Monaco,tarquini,\N,coloni,24,23,0.0,5,22,\N,\N,\N
+306,1991,2,1991-03-24,Brazilian Grand Prix,interlagos,Brazil,grouillard,\N,fondmetal,0,31,0.0,0,97,\N,\N,\N
+155,2001,15,2001-09-16,Italian Grand Prix,monza,Italy,alonso,ALO,minardi,21,13,0.0,51,12,\N,\N,\N
+1140,2024,20,2024-10-27,Mexico City Grand Prix,rodriguez,Mexico,alonso,ALO,aston_martin,13,18,0.0,15,23,\N,18,187.306
+437,1984,2,1984-04-07,South African Grand Prix,kyalami,South Africa,lauda,\N,mclaren,8,1,9.0,75,1,5363430,\N,\N
+461,1983,10,1983-08-07,German Grand Prix,hockenheimring,Germany,johansson,\N,spirit,13,21,0.0,11,5,\N,\N,\N
+332,1990,12,1990-09-09,Italian Grand Prix,monza,Italy,prost,\N,ferrari,2,2,6.0,53,1,4683932,\N,\N
+384,1988,13,1988-09-25,Portuguese Grand Prix,estoril,Portugal,capelli,\N,march,3,2,6.0,70,1,5870511,\N,\N
+334,1990,14,1990-09-30,Spanish Grand Prix,jerez,Spain,grouillard,\N,osella,21,17,0.0,45,67,\N,\N,\N
+625,1972,6,1972-07-02,French Grand Prix,charade,France,amon,\N,matra,1,3,4.0,38,1,6774400,\N,\N
+1101,2023,4,2023-04-30,Azerbaijan Grand Prix,baku,Azerbaijan,gasly,GAS,alpine,17,14,0.0,51,1,5653768,8,204.764
+1013,2019,4,2019-04-28,Azerbaijan Grand Prix,baku,Azerbaijan,hamilton,HAM,mercedes,2,2,18.0,51,1,5514466,3,207.465
+859,2011,19,2011-11-27,Brazilian Grand Prix,interlagos,Brazil,alonso,ALO,ferrari,5,4,12.0,71,1,5572512,4,203.625
+386,1988,15,1988-10-30,Japanese Grand Prix,suzuka,Japan,capelli,\N,march,4,24,0.0,19,10,\N,\N,\N
+886,2013,7,2013-06-09,Canadian Grand Prix,villeneuve,Canada,garde,VDG,caterham,21,22,0.0,43,4,\N,22,191.900
+836,1950,4,1950-06-04,Swiss Grand Prix,bremgarten,Switzerland,pagani,\N,maserati,15,7,0.0,39,13,\N,\N,\N
+1062,2021,11,2021-08-01,Hungarian Grand Prix,hungaroring,Hungary,max_verstappen,VER,red_bull,3,9,2.0,70,1,7563443,4,194.843
+985,2017,17,2017-10-22,United States Grand Prix,americas,USA,max_verstappen,VER,red_bull,16,4,12.0,56,1,5647759,4,202.394
+792,1955,1,1955-01-16,Argentine Grand Prix,galvez,Argentina,castellotti,\N,lancia,12,12,0.0,35,3,\N,\N,\N
+754,1960,9,1960-09-04,Italian Grand Prix,monza,Italy,naylor,\N,jbw,7,11,0.0,41,6,\N,\N,\N
+1061,2021,10,2021-07-18,British Grand Prix,silverstone,UK,giovinazzi,GIO,alfa,15,13,0.0,51,11,\N,15,229.653
+763,1959,8,1959-09-13,Italian Grand Prix,monza,Italy,jack_brabham,\N,cooper-climax,3,3,4.0,72,1,7517900,\N,\N
+488,1981,6,1981-05-31,Monaco Grand Prix,monaco,Monaco,cesaris,\N,mclaren,11,19,0.0,0,4,\N,\N,\N
+247,1995,8,1995-07-16,British Grand Prix,silverstone,UK,irvine,\N,jordan,7,24,0.0,2,10,\N,\N,\N
+254,1995,15,1995-10-22,Pacific Grand Prix,okayama,Japan,michael_schumacher,MSC,benetton,3,1,10.0,83,1,6529972,\N,\N
+292,1992,4,1992-05-03,Spanish Grand Prix,catalunya,Spain,capelli,\N,ferrari,5,10,0.0,62,20,\N,\N,\N
+845,2011,5,2011-05-22,Spanish Grand Prix,catalunya,Spain,petrov,PET,renault,6,11,0.0,65,11,\N,17,187.047
+780,1957,5,1957-07-20,British Grand Prix,aintree,UK,jack_brabham,\N,cooper,13,9,0.0,74,8,\N,\N,\N
+453,1983,2,1983-03-27,United States Grand Prix West,long_beach,USA,cesaris,\N,alfa,19,16,0.0,48,6,\N,\N,\N
+1056,2021,5,2021-05-23,Monaco Grand Prix,monaco,Monaco,bottas,BOT,mercedes,3,19,0.0,29,61,\N,17,158.682
+584,1975,9,1975-07-06,French Grand Prix,ricard,France,evans,\N,brm,25,17,0.0,52,12,\N,\N,\N
+550,1977,8,1977-06-19,Swedish Grand Prix,anderstorp,Sweden,hayje,\N,march,0,28,0.0,0,81,\N,\N,\N
+323,1990,3,1990-05-13,San Marino Grand Prix,imola,Italy,donnelly,\N,team_lotus,11,8,0.0,60,11,\N,\N,\N
+632,1971,1,1971-03-06,South African Grand Prix,kyalami,South Africa,hill,\N,brabham,19,9,0.0,77,12,\N,\N,\N
+109,2003,2,2003-03-23,Malaysian Grand Prix,sepang,Malaysia,pizzonia,PIZ,jaguar,15,14,0.0,42,20,\N,\N,\N
+265,1994,9,1994-07-31,German Grand Prix,hockenheimring,Germany,cesaris,\N,sauber,18,23,0.0,0,4,\N,\N,\N
+218,1997,12,1997-08-24,Belgian Grand Prix,spa,Belgium,fisichella,FIS,jordan,4,2,6.0,44,1,5653470,\N,\N
+468,1982,2,1982-03-21,Brazilian Grand Prix,jacarepagua,Brazil,guerrero,\N,ensign,0,30,0.0,0,81,\N,\N,\N
+400,1987,13,1987-09-27,Spanish Grand Prix,jerez,Spain,danner,\N,zakspeed,22,20,0.0,50,7,\N,\N,\N
+83,2005,13,2005-07-31,Hungarian Grand Prix,hungaroring,Hungary,monteiro,TMO,jordan,20,13,0.0,66,14,\N,16,186.042
+794,1955,3,1955-05-30,Indianapolis 500,indianapolis,USA,daywalt,\N,kurtis_kraft,17,9,0.0,200,1,14469340,\N,\N
+404,1986,1,1986-03-23,Brazilian Grand Prix,jacarepagua,Brazil,johansson,\N,ferrari,8,15,0.0,26,23,\N,\N,\N
+414,1986,11,1986-08-10,Hungarian Grand Prix,hungaroring,Hungary,fabi,\N,benetton,13,16,0.0,32,7,\N,\N,\N
+854,2011,14,2011-09-25,Singapore Grand Prix,marina_bay,Singapore,barrichello,BAR,williams,12,13,0.0,60,11,\N,19,158.483
+799,1954,1,1954-01-17,Argentine Grand Prix,galvez,Argentina,gonzalez,\N,ferrari,2,3,5.0,87,1,10976800,\N,\N
+264,1994,8,1994-07-10,British Grand Prix,silverstone,UK,zanardi,\N,team_lotus,19,24,0.0,4,5,\N,\N,\N
+266,1994,10,1994-08-14,Hungarian Grand Prix,hungaroring,Hungary,morbidelli,\N,footwork,19,21,0.0,30,4,\N,\N,\N
+793,1955,2,1955-05-22,Monaco Grand Prix,monaco,Monaco,perdisa,\N,maserati,11,10,0.0,86,20,\N,\N,\N
+7,2009,7,2009-06-07,Turkish Grand Prix,istanbul,Turkey,kubica,KUB,bmw_sauber,10,7,2.0,58,1,5231095,7,218.352
+316,1991,12,1991-09-08,Italian Grand Prix,monza,Italy,patrese,\N,williams,4,21,0.0,27,6,\N,\N,\N
+107,2004,18,2004-10-24,Brazilian Grand Prix,interlagos,Brazil,heidfeld,HEI,jordan,16,19,0.0,15,8,\N,19,204.500
+1130,2024,10,2024-06-23,Spanish Grand Prix,catalunya,Spain,leclerc,LEC,ferrari,5,5,10.0,66,1,5322936,6,215.222
+958,2016,11,2016-07-24,Hungarian Grand Prix,hungaroring,Hungary,gutierrez,GUT,haas,15,13,0.0,69,11,\N,17,183.486
+457,1983,6,1983-05-22,Belgian Grand Prix,spa,Belgium,boesel,\N,ligier,26,13,0.0,39,11,\N,\N,\N
+22,2008,5,2008-05-11,Turkish Grand Prix,istanbul,Turkey,heidfeld,HEI,bmw_sauber,9,5,4.0,58,1,5248192,5,220.328
+661,1969,6,1969-07-19,British Grand Prix,silverstone,UK,courage,\N,brabham-ford,10,5,2.0,83,11,\N,\N,\N
+646,1970,4,1970-06-07,Belgian Grand Prix,spa,Belgium,giunti,\N,ferrari,8,4,3.0,28,1,6048600,\N,\N
+67,2006,15,2006-09-10,Italian Grand Prix,monza,Italy,rosberg,ROS,williams,12,22,0.0,9,30,\N,19,244.310
+932,2015,7,2015-06-07,Canadian Grand Prix,villeneuve,Canada,nasr,NAS,sauber,14,16,0.0,68,12,\N,17,198.507
+635,1971,4,1971-06-20,Dutch Grand Prix,zandvoort,Netherlands,pescarolo,\N,march-ford,15,13,0.0,62,62,\N,\N,\N
+964,2016,17,2016-10-09,Japanese Grand Prix,suzuka,Japan,perez,PER,force_india,5,7,6.0,53,1,5260828,7,216.061
+506,1980,9,1980-08-10,German Grand Prix,hockenheimring,Germany,laffite,\N,ligier,5,1,9.0,45,1,5039730,\N,\N
+353,2010,17,2010-10-24,Korean Grand Prix,yeongam,Korea,sutil,SUT,force_india,14,16,0.0,46,4,\N,12,179.518
+542,1978,16,1978-10-08,Canadian Grand Prix,villeneuve,Canada,gilles_villeneuve,\N,ferrari,3,1,9.0,70,1,7069196,\N,\N
+563,1976,4,1976-05-02,Spanish Grand Prix,jarama,Spain,jones,\N,surtees,20,9,0.0,74,11,\N,\N,\N
+184,1999,10,1999-08-01,German Grand Prix,hockenheimring,Germany,gene,\N,minardi,15,9,0.0,45,1,5026912,\N,\N
+286,1993,14,1993-09-26,Portuguese Grand Prix,estoril,Portugal,prost,\N,williams,2,2,6.0,71,1,5567291,\N,\N
+1113,2023,15,2023-09-17,Singapore Grand Prix,marina_bay,Singapore,max_verstappen,VER,red_bull,11,5,10.0,62,1,6418859,4,184.147
+997,2018,9,2018-07-01,Austrian Grand Prix,red_bull_ring,Austria,alonso,ALO,mclaren,13,8,4.0,70,11,\N,9,226.399
+1007,2018,19,2018-10-28,Mexican Grand Prix,rodriguez,Mexico,alonso,ALO,mclaren,12,20,0.0,3,5,\N,20,184.025
+267,1994,11,1994-08-28,Belgian Grand Prix,spa,Belgium,adams,\N,team_lotus,26,21,0.0,15,20,\N,\N,\N
+17,2009,17,2009-11-01,Abu Dhabi Grand Prix,yas_marina,UAE,sutil,SUT,force_india,17,17,0.0,54,11,\N,13,198.152
+324,1990,4,1990-05-27,Monaco Grand Prix,monaco,Monaco,boutsen,\N,williams,6,4,3.0,77,11,\N,\N,\N
+415,1986,12,1986-08-17,Austrian Grand Prix,red_bull_ring,Austria,piquet,\N,williams,7,13,0.0,29,5,\N,\N,\N
+295,1992,7,1992-06-14,Canadian Grand Prix,villeneuve,Canada,patrese,\N,williams,2,17,0.0,43,6,\N,\N,\N
+358,1989,3,1989-05-07,Monaco Grand Prix,monaco,Monaco,ghinzani,\N,osella,0,30,0.0,0,97,\N,\N,\N
+599,1974,10,1974-07-20,British Grand Prix,brands_hatch,UK,wilds,\N,march,0,33,0.0,0,81,\N,\N,\N
+1078,2022,5,2022-05-08,Miami Grand Prix,miami,USA,bottas,BOT,alfa,5,7,6.0,57,1,5689331,10,209.083
+18,2008,1,2008-03-16,Australian Grand Prix,albert_park,Australia,coulthard,COU,red_bull,8,14,0.0,25,4,\N,11,213.300
+360,1989,5,1989-06-04,United States Grand Prix,phoenix,USA,weidler,\N,rial,0,36,0.0,0,97,\N,\N,\N
+739,1961,2,1961-05-22,Dutch Grand Prix,zandvoort,Netherlands,mclaren,\N,cooper-climax,14,12,0.0,73,12,\N,\N,\N
+438,1984,3,1984-04-29,Belgian Grand Prix,zolder,Belgium,ghinzani,\N,osella,20,22,0.0,14,7,\N,\N,\N
+284,1993,12,1993-08-29,Belgian Grand Prix,spa,Belgium,alliot,\N,larrousse,18,12,0.0,42,12,\N,\N,\N
+526,1979,15,1979-10-07,United States Grand Prix,watkins_glen,USA,jones,\N,williams,1,12,0.0,36,36,\N,\N,\N
+793,1955,2,1955-05-22,Monaco Grand Prix,monaco,Monaco,behra,\N,maserati,11,10,0.0,86,20,\N,\N,\N
+108,2003,1,2003-03-09,Australian Grand Prix,albert_park,Australia,wilson,\N,minardi,19,16,0.0,16,21,\N,\N,\N
+1020,2019,11,2019-07-28,German Grand Prix,hockenheimring,Germany,stroll,STR,racing_point,15,4,12.0,64,1,6280241,8,211.566
+238,1996,15,1996-09-22,Portuguese Grand Prix,estoril,Portugal,rosset,\N,footwork,17,14,0.0,67,13,\N,\N,\N
+112,2003,5,2003-05-04,Spanish Grand Prix,catalunya,Spain,wilson,\N,minardi,18,11,0.0,63,12,\N,\N,\N
+926,2015,1,2015-03-15,Australian Grand Prix,albert_park,Australia,nasr,NAS,sauber,10,5,10.0,58,1,5609216,9,206.137
+23,2008,6,2008-05-25,Monaco Grand Prix,monaco,Monaco,nakajima,NAK,williams,13,7,2.0,76,1,7272922,13,150.469
+579,1975,4,1975-04-27,Spanish Grand Prix,montjuic,Spain,depailler,\N,tyrrell,7,22,0.0,1,3,\N,\N,\N
+388,1987,1,1987-04-12,Brazilian Grand Prix,jacarepagua,Brazil,berger,\N,ferrari,7,4,3.0,61,1,6084376,\N,\N
+525,1979,14,1979-09-30,Canadian Grand Prix,villeneuve,Canada,lauda,\N,brabham-ford,0,30,0.0,0,54,\N,\N,\N
+410,1986,7,1986-06-22,Detroit Grand Prix,detroit,USA,keke_rosberg,\N,mclaren,9,23,0.0,12,7,\N,\N,\N
+273,1993,1,1993-03-14,South African Grand Prix,kyalami,South Africa,zanardi,\N,team_lotus,16,22,0.0,16,4,\N,\N,\N
+135,2002,12,2002-07-28,German Grand Prix,hockenheimring,Germany,coulthard,COU,mclaren,9,5,2.0,66,11,\N,\N,\N
+675,1968,9,1968-09-08,Italian Grand Prix,monza,Italy,moser,\N,brabham-repco,0,22,0.0,0,81,\N,\N,\N
+1029,2019,20,2019-11-17,Brazilian Grand Prix,interlagos,Brazil,giovinazzi,GIO,alfa,12,5,10.0,71,1,5604879,14,212.440
+708,1965,10,1965-10-24,Mexican Grand Prix,rodriguez,Mexico,solana,\N,lotus-climax,9,10,0.0,55,80,\N,\N,\N
+966,2016,19,2016-10-30,Mexican Grand Prix,rodriguez,Mexico,ocon,OCO,manor,20,21,0.0,69,12,\N,21,182.364
+497,1981,15,1981-10-17,Caesars Palace Grand Prix,las_vegas,USA,henton,\N,toleman,0,29,0.0,0,81,\N,\N,\N
+740,1961,3,1961-06-18,Belgian Grand Prix,spa,Belgium,seidel,\N,lotus-climax,0,23,0.0,0,54,\N,\N,\N
+362,1989,7,1989-07-09,French Grand Prix,ricard,France,gachot,\N,onyx,11,13,0.0,76,5,\N,\N,\N
+758,1959,3,1959-05-31,Dutch Grand Prix,zandvoort,Netherlands,ireland,\N,team_lotus,9,4,3.0,74,11,\N,\N,\N
+185,1999,11,1999-08-15,Hungarian Grand Prix,hungaroring,Hungary,wurz,WUR,benetton,7,7,0.0,77,1,6444548,\N,\N
+809,1953,2,1953-05-30,Indianapolis 500,indianapolis,USA,parsons,\N,kurtis_kraft,8,26,0.0,86,5,\N,\N,\N
+218,1997,12,1997-08-24,Belgian Grand Prix,spa,Belgium,michael_schumacher,MSC,ferrari,3,1,10.0,44,1,5626717,\N,\N
+1037,2020,7,2020-08-30,Belgian Grand Prix,spa,Belgium,stroll,STR,racing_point,9,9,2.0,44,1,5101364,13,231.036
+233,1996,10,1996-07-14,British Grand Prix,silverstone,UK,michael_schumacher,MSC,ferrari,3,20,0.0,3,9,\N,\N,\N
+336,1990,16,1990-11-04,Australian Grand Prix,adelaide,Australia,modena,\N,brabham,17,12,0.0,77,14,\N,\N,\N
+60,2006,8,2006-06-11,British Grand Prix,silverstone,UK,montoya,MON,mclaren,8,6,3.0,60,1,5216696,8,223.575
+102,2004,13,2004-08-15,Hungarian Grand Prix,hungaroring,Hungary,klien,KLI,jaguar,14,13,0.0,68,12,\N,17,191.101
+67,2006,15,2006-09-10,Italian Grand Prix,monza,Italy,yamamoto,YAM,super_aguri,22,21,0.0,18,9,\N,22,240.962
+487,1981,5,1981-05-17,Belgian Grand Prix,zolder,Belgium,patrese,\N,arrows,4,23,0.0,0,4,\N,\N,\N
+268,1994,12,1994-09-11,Italian Grand Prix,monza,Italy,brabham,\N,simtek,26,11,0.0,46,29,\N,\N,\N
+1133,2024,13,2024-07-21,Hungarian Grand Prix,hungaroring,Hungary,bottas,BOT,sauber,12,16,0.0,69,11,\N,13,190.496
+256,1995,17,1995-11-12,Australian Grand Prix,adelaide,Australia,barrichello,BAR,jordan,7,18,0.0,20,20,\N,\N,\N
+656,1969,1,1969-03-01,South African Grand Prix,kyalami,South Africa,hill,\N,lotus-ford,7,2,6.0,80,1,6657900,\N,\N
+569,1976,10,1976-08-01,German Grand Prix,nurburgring,Germany,scheckter,\N,tyrrell,8,2,6.0,14,1,6130400,\N,\N
+240,1995,1,1995-03-26,Brazilian Grand Prix,interlagos,Brazil,schiattarella,\N,simtek,26,23,0.0,12,38,\N,\N,\N
+608,1973,4,1973-04-29,Spanish Grand Prix,montjuic,Spain,hailwood,\N,surtees,9,19,0.0,25,44,\N,\N,\N
+1051,2021,20,2021-11-21,Qatar Grand Prix,losail,Qatar,stroll,STR,aston_martin,12,6,8.0,57,1,5149745,17,221.713
+918,2014,19,2014-11-23,Abu Dhabi Grand Prix,yas_marina,UAE,vettel,VET,red_bull,19,8,8.0,55,1,6014664,3,189.427
+21,2008,4,2008-04-27,Spanish Grand Prix,catalunya,Spain,sutil,SUT,force_india,20,21,0.0,0,4,\N,\N,\N
+828,1951,4,1951-07-01,French Grand Prix,reims,France,graffenried,\N,maserati,16,22,0.0,1,7,\N,\N,\N
+1052,2021,1,2021-03-28,Bahrain Grand Prix,bahrain,Bahrain,russell,RUS,williams,15,14,0.0,55,11,\N,12,205.008
+501,1980,4,1980-03-30,United States Grand Prix West,long_beach,USA,piquet,\N,brabham,1,1,9.0,80,1,6619400,\N,\N
+421,1985,2,1985-04-21,Portuguese Grand Prix,estoril,Portugal,senna,\N,team_lotus,1,1,9.0,67,1,7228006,\N,\N
+833,1950,1,1950-05-13,British Grand Prix,silverstone,UK,reg_parnell,\N,alfa,4,3,4.0,70,1,8055600,\N,\N
+346,2010,10,2010-07-11,British Grand Prix,silverstone,UK,alguersuari,ALG,toro_rosso,17,21,0.0,44,23,\N,12,226.219
+787,1956,4,1956-06-03,Belgian Grand Prix,spa,Belgium,behra,\N,maserati,4,7,0.0,33,13,\N,\N,\N
+36,2007,1,2007-03-18,Australian Grand Prix,albert_park,Australia,webber,WEB,red_bull,7,13,0.0,57,11,\N,9,218.178
+795,1955,4,1955-06-05,Belgian Grand Prix,spa,Belgium,musso,\N,maserati,7,7,0.0,34,12,\N,\N,\N
+1122,2024,2,2024-03-09,Saudi Arabian Grand Prix,jeddah,Saudi Arabia,ocon,OCO,alpine,17,13,0.0,49,11,\N,17,237.763
+505,1980,8,1980-07-13,British Grand Prix,brands_hatch,UK,daly,\N,tyrrell,10,4,3.0,75,11,\N,\N,\N
+1085,2022,12,2022-07-24,French Grand Prix,ricard,France,kevin_magnussen,MAG,haas,20,18,0.0,37,130,\N,17,211.869
+1070,2021,18,2021-11-07,Mexico City Grand Prix,rodriguez,Mexico,tsunoda,TSU,alphatauri,17,20,0.0,0,4,\N,0,\N
+283,1993,11,1993-08-15,Hungarian Grand Prix,hungaroring,Hungary,andretti,\N,mclaren,11,25,0.0,15,37,\N,\N,\N
+736,1962,8,1962-10-07,United States Grand Prix,watkins_glen,USA,penske,\N,lotus-climax,13,9,0.0,96,14,\N,\N,\N
+76,2005,6,2005-05-22,Monaco Grand Prix,monaco,Monaco,raikkonen,RAI,mclaren,1,1,10.0,78,1,6315556,2,158.375
+1036,2020,6,2020-08-16,Spanish Grand Prix,catalunya,Spain,latifi,LAT,williams,19,18,0.0,64,12,\N,9,204.291
+714,1964,6,1964-08-02,German Grand Prix,nurburgring,Germany,anderson,\N,brabham-climax,15,17,0.0,4,22,\N,\N,\N
+621,1972,2,1972-03-04,South African Grand Prix,kyalami,South Africa,revson,\N,mclaren,12,3,4.0,79,1,6374900,\N,\N
+838,1950,6,1950-07-02,French Grand Prix,reims,France,gonzalez,\N,maserati,8,18,0.0,3,5,\N,\N,\N
+497,1981,15,1981-10-17,Caesars Palace Grand Prix,las_vegas,USA,patrese,\N,arrows,11,11,0.0,71,14,\N,\N,\N
+392,1987,5,1987-06-21,Detroit Grand Prix,detroit,USA,piquet,\N,williams,3,2,6.0,63,1,6650177,\N,\N
+617,1973,13,1973-09-09,Italian Grand Prix,monza,Italy,hunt,\N,march,0,25,0.0,0,3,\N,\N,\N
+835,1950,3,1950-05-30,Indianapolis 500,indianapolis,USA,holmes,\N,olson,30,23,0.0,123,20,\N,\N,\N
+86,2005,16,2005-09-11,Belgian Grand Prix,spa,Belgium,villeneuve,VIL,sauber,14,6,3.0,44,1,5488695,7,219.810
+1051,2021,20,2021-11-21,Qatar Grand Prix,losail,Qatar,norris,NOR,mclaren,4,9,2.0,56,11,\N,4,225.876
+871,2012,12,2012-09-02,Belgian Grand Prix,spa,Belgium,vergne,VER,toro_rosso,15,8,4.0,44,1,5407395,8,221.188
+1115,2023,17,2023-10-08,Qatar Grand Prix,losail,Qatar,leclerc,LEC,ferrari,5,5,10.0,57,1,5298144,4,229.532
+315,1991,11,1991-08-25,Belgian Grand Prix,spa,Belgium,senna,\N,mclaren,1,1,10.0,44,1,5237669,\N,\N
+527,1978,1,1978-01-15,Argentine Grand Prix,galvez,Argentina,keegan,\N,surtees,19,24,0.0,4,25,\N,\N,\N
+696,1966,7,1966-09-04,Italian Grand Prix,monza,Italy,hulme,\N,brabham-repco,10,3,4.0,68,1,6440900,\N,\N
+67,2006,15,2006-09-10,Italian Grand Prix,monza,Italy,alonso,ALO,renault,10,19,0.0,43,5,\N,5,250.896
+877,2012,18,2012-11-04,Abu Dhabi Grand Prix,yas_marina,UAE,hamilton,HAM,mclaren,1,21,0.0,19,10,\N,16,186.400
+649,1970,7,1970-07-18,British Grand Prix,brands_hatch,UK,mario_andretti,\N,march,9,18,0.0,21,22,\N,\N,\N
+1113,2023,15,2023-09-17,Singapore Grand Prix,marina_bay,Singapore,alonso,ALO,aston_martin,7,15,0.0,62,1,6485021,3,184.374
+975,2017,7,2017-06-11,Canadian Grand Prix,villeneuve,Canada,kvyat,KVY,toro_rosso,11,17,0.0,54,131,\N,13,204.653
+962,2016,15,2016-09-18,Singapore Grand Prix,marina_bay,Singapore,vettel,VET,ferrari,22,5,10.0,61,1,6976644,2,169.863
+406,1986,3,1986-04-27,San Marino Grand Prix,imola,Italy,piquet,\N,williams,2,2,6.0,60,1,5556053,\N,\N
+616,1973,12,1973-08-19,Austrian Grand Prix,red_bull_ring,Austria,peterson,\N,team_lotus,2,1,9.0,54,1,5328780,\N,\N
+578,1975,3,1975-03-01,South African Grand Prix,kyalami,South Africa,wilson_fittipaldi,\N,fittipaldi,0,27,0.0,0,81,\N,\N,\N
+1042,2020,12,2020-10-25,Portuguese Grand Prix,portimao,Portugal,gasly,GAS,alphatauri,9,5,10.0,65,11,\N,9,207.952
+63,2006,11,2006-07-16,French Grand Prix,magny_cours,France,ralf_schumacher,SCH,toyota,5,4,5.0,70,1,5555003,6,204.084
+967,2016,20,2016-11-13,Brazilian Grand Prix,interlagos,Brazil,kevin_magnussen,MAG,renault,18,14,0.0,71,1,10912890,7,179.284
+658,1969,3,1969-05-18,Monaco Grand Prix,monaco,Monaco,hill,\N,lotus-ford,4,1,9.0,80,1,7019400,\N,\N
+597,1974,8,1974-06-23,Dutch Grand Prix,zandvoort,Netherlands,pescarolo,\N,brm,24,21,0.0,15,64,\N,\N,\N
+407,1986,4,1986-05-11,Monaco Grand Prix,monaco,Monaco,surer,\N,arrows,17,9,0.0,75,13,\N,\N,\N
+1108,2023,10,2023-07-09,British Grand Prix,silverstone,UK,kevin_magnussen,MAG,haas,19,19,0.0,31,5,\N,19,227.169
+838,1950,6,1950-07-02,French Grand Prix,reims,France,rosier,\N,lago,6,12,0.0,10,25,\N,\N,\N
+801,1954,3,1954-06-20,Belgian Grand Prix,spa,Belgium,moss,\N,maserati,9,3,4.0,35,11,\N,\N,\N
+37,2007,2,2007-04-08,Malaysian Grand Prix,sepang,Malaysia,ralf_schumacher,SCH,toyota,9,15,0.0,55,11,\N,19,201.070
+1028,2019,19,2019-11-03,United States Grand Prix,americas,USA,kubica,KUB,williams,19,19,0.0,31,44,\N,20,191.147
+335,1990,15,1990-10-21,Japanese Grand Prix,suzuka,Japan,boutsen,\N,williams,5,5,2.0,53,1,5723708,\N,\N
+45,2007,10,2007-07-22,European Grand Prix,nurburgring,Germany,sato,SAT,super_aguri,16,15,0.0,19,31,\N,16,190.273
+134,2002,11,2002-07-21,French Grand Prix,magny_cours,France,montoya,MON,williams,1,4,3.0,72,1,5570512,\N,\N
+619,1973,15,1973-10-07,United States Grand Prix,watkins_glen,USA,hunt,\N,march,4,2,6.0,59,1,6076447,\N,\N
+98,2004,9,2004-06-20,United States Grand Prix,indianapolis,USA,michael_schumacher,MSC,ferrari,2,1,10.0,73,1,6029914,2,214.327
+141,2001,1,2001-03-04,Australian Grand Prix,albert_park,Australia,burti,\N,jaguar,21,8,0.0,57,11,\N,\N,\N
+382,1988,11,1988-08-28,Belgian Grand Prix,spa,Belgium,warwick,\N,arrows,10,5,2.0,43,1,5365904,\N,\N
+852,2011,12,2011-08-28,Belgian Grand Prix,spa,Belgium,trulli,TRU,lotus_racing,18,14,0.0,43,11,\N,17,220.076
+318,1991,14,1991-09-29,Spanish Grand Prix,catalunya,Spain,pirro,\N,dallara,9,15,0.0,62,13,\N,\N,\N
+175,1999,1,1999-03-07,Australian Grand Prix,albert_park,Australia,herbert,\N,stewart,13,22,0.0,0,66,\N,\N,\N
+913,2014,14,2014-09-21,Singapore Grand Prix,marina_bay,Singapore,button,BUT,mclaren,11,18,0.0,52,31,\N,16,160.359
+345,2010,9,2010-06-27,European Grand Prix,valencia,Spain,buemi,BUE,toro_rosso,11,9,2.0,57,1,6065870,11,194.920
+439,1984,4,1984-05-06,San Marino Grand Prix,imola,Italy,fabi,\N,brabham,9,15,0.0,48,101,\N,\N,\N
+802,1954,4,1954-07-04,French Grand Prix,reims,France,ascari,\N,maserati,3,21,0.0,1,7,\N,\N,\N
+438,1984,3,1984-04-29,Belgian Grand Prix,zolder,Belgium,tambay,\N,renault,12,7,0.0,68,12,\N,\N,\N
+146,2001,6,2001-05-13,Austrian Grand Prix,red_bull_ring,Austria,irvine,\N,jaguar,13,7,0.0,70,11,\N,\N,\N
+94,2004,5,2004-05-09,Spanish Grand Prix,catalunya,Spain,button,BUT,bar,14,8,1.0,65,11,\N,2,214.945
+903,2014,4,2014-04-20,Chinese Grand Prix,shanghai,China,perez,PER,force_india,16,9,2.0,54,1,5690985,6,191.959
+5,2009,5,2009-05-10,Spanish Grand Prix,catalunya,Spain,kovalainen,KOV,mclaren,18,16,0.0,7,6,\N,16,188.888
+170,2000,13,2000-08-27,Belgian Grand Prix,spa,Belgium,wurz,WUR,benetton,19,13,0.0,43,11,\N,\N,\N
+1000,2018,12,2018-07-29,Hungarian Grand Prix,hungaroring,Hungary,ocon,OCO,force_india,18,13,0.0,69,11,\N,14,190.303
+62,2006,10,2006-07-02,United States Grand Prix,indianapolis,USA,massa,MAS,ferrari,2,2,8.0,73,1,5683183,2,206.859
+300,1992,12,1992-08-30,Belgian Grand Prix,spa,Belgium,lehto,\N,dallara,16,7,0.0,44,1,5868958,\N,\N
+336,1990,16,1990-11-04,Australian Grand Prix,adelaide,Australia,alboreto,\N,arrows,0,27,0.0,0,81,\N,\N,\N
+639,1971,8,1971-08-15,Austrian Grand Prix,red_bull_ring,Austria,peterson,\N,march-ford,11,8,0.0,53,11,\N,\N,\N
+632,1971,1,1971-03-06,South African Grand Prix,kyalami,South Africa,cevert,\N,tyrrell,9,16,0.0,45,3,\N,\N,\N
+446,1984,11,1984-08-05,German Grand Prix,hockenheimring,Germany,rothengatter,\N,spirit,24,9,0.0,40,14,\N,\N,\N
+4,2009,4,2009-04-26,Bahrain Grand Prix,bahrain,Bahrain,massa,MAS,ferrari,8,14,0.0,56,11,\N,7,204.946
+544,1977,2,1977-01-23,Brazilian Grand Prix,interlagos,Brazil,hoffmann,\N,fittipaldi,19,7,0.0,38,12,\N,\N,\N
+634,1971,3,1971-05-23,Monaco Grand Prix,monaco,Monaco,amon,\N,matra,4,13,0.0,45,24,\N,\N,\N
+949,2016,2,2016-04-03,Bahrain Grand Prix,bahrain,Bahrain,kvyat,KVY,red_bull,15,7,6.0,56,11,\N,8,203.633
+980,2017,12,2017-08-27,Belgian Grand Prix,spa,Belgium,grosjean,GRO,haas,11,7,6.0,44,1,5114373,8,231.140
+1140,2024,20,2024-10-27,Mexico City Grand Prix,rodriguez,Mexico,norris,NOR,mclaren,3,2,18.0,71,1,6060505,4,194.430
+1041,2020,11,2020-10-11,Eifel Grand Prix,nurburgring,Germany,russell,RUS,williams,17,20,0.0,12,4,\N,20,196.060
+725,1963,7,1963-09-08,Italian Grand Prix,monza,Italy,gurney,\N,brabham,5,14,0.0,64,69,\N,\N,\N
+638,1971,7,1971-08-01,German Grand Prix,nurburgring,Germany,peterson,\N,march-ford,3,5,2.0,12,1,5505400,\N,\N
+1071,2021,19,2021-11-14,São Paulo Grand Prix,interlagos,Brazil,perez,PER,red_bull,4,4,13.0,71,1,5582791,1,218.453
+44,2007,9,2007-07-08,British Grand Prix,silverstone,UK,ralf_schumacher,SCH,toyota,6,20,0.0,22,36,\N,8,224.307
+131,2002,8,2002-06-09,Canadian Grand Prix,villeneuve,Canada,bernoldi,\N,arrows,17,21,0.0,16,22,\N,\N,\N
+582,1975,7,1975-06-08,Swedish Grand Prix,anderstorp,Sweden,lauda,\N,ferrari,5,1,9.0,80,1,7158319,\N,\N
+1087,2022,14,2022-08-28,Belgian Grand Prix,spa,Belgium,kevin_magnussen,MAG,haas,12,16,0.0,43,11,\N,18,222.482
+585,1975,10,1975-07-19,British Grand Prix,silverstone,UK,reutemann,\N,brabham,8,26,0.0,4,5,\N,\N,\N
+291,1992,3,1992-04-05,Brazilian Grand Prix,interlagos,Brazil,chiesa,\N,fondmetal,0,27,0.0,0,81,\N,\N,\N
+806,1954,8,1954-09-05,Italian Grand Prix,monza,Italy,gonzalez,\N,ferrari,5,17,0.0,16,6,\N,\N,\N
+409,1986,6,1986-06-15,Canadian Grand Prix,villeneuve,Canada,rothengatter,\N,zakspeed,24,12,0.0,63,16,\N,\N,\N
+792,1955,1,1955-01-16,Argentine Grand Prix,galvez,Argentina,mantovani,\N,maserati,19,8,0.0,54,5,\N,\N,\N
+1059,2021,7,2021-06-20,French Grand Prix,ricard,France,ocon,OCO,alpine,11,14,0.0,52,11,\N,15,213.200
+1031,2020,1,2020-07-05,Austrian Grand Prix,red_bull_ring,Austria,ocon,OCO,renault,14,8,4.0,71,1,5473195,10,225.509
+807,1954,9,1954-10-24,Spanish Grand Prix,pedralbes,Spain,hawthorn,\N,ferrari,3,1,8.0,80,1,11632100,\N,\N
+181,1999,7,1999-06-27,French Grand Prix,magny_cours,France,alesi,\N,sauber,2,18,0.0,24,20,\N,\N,\N
+103,2004,14,2004-08-29,Belgian Grand Prix,spa,Belgium,massa,MAS,sauber,8,4,5.0,44,1,5567778,13,233.345
+791,1956,8,1956-09-02,Italian Grand Prix,monza,Italy,manzon,\N,gordini,23,21,0.0,7,83,\N,\N,\N
+697,1966,8,1966-10-02,United States Grand Prix,watkins_glen,USA,bondurant,\N,eagle-climax,16,19,0.0,5,2,\N,\N,\N
+470,1982,4,1982-04-25,San Marino Grand Prix,imola,Italy,warwick,\N,toleman,8,14,0.0,0,10,\N,\N,\N
+1128,2024,8,2024-05-26,Monaco Grand Prix,monaco,Monaco,sargeant,SAR,williams,15,15,0.0,76,12,\N,0,\N
+723,1963,5,1963-07-20,British Grand Prix,silverstone,UK,amon,\N,lola,14,7,0.0,80,12,\N,\N,\N
+204,1998,14,1998-09-13,Italian Grand Prix,monza,Italy,salo,\N,arrows,16,16,0.0,32,37,\N,\N,\N
+392,1987,5,1987-06-21,Detroit Grand Prix,detroit,USA,streiff,\N,tyrrell,14,15,0.0,44,36,\N,\N,\N
+940,2015,14,2015-09-27,Japanese Grand Prix,suzuka,Japan,massa,MAS,williams,5,17,0.0,51,12,\N,12,212.031
+324,1990,4,1990-05-27,Monaco Grand Prix,monaco,Monaco,langes,\N,eurobrun,0,33,0.0,0,97,\N,\N,\N
+800,1954,2,1954-05-31,Indianapolis 500,indianapolis,USA,webb,\N,bromme,29,30,0.0,104,48,\N,\N,\N
+161,2000,4,2000-04-23,British Grand Prix,silverstone,UK,hakkinen,\N,mclaren,3,2,6.0,60,1,5331585,\N,\N
+904,2014,5,2014-05-11,Spanish Grand Prix,catalunya,Spain,kobayashi,KOB,caterham,20,21,0.0,34,23,\N,21,180.069
+566,1976,7,1976-06-13,Swedish Grand Prix,anderstorp,Sweden,pace,\N,brabham-alfa_romeo,10,8,0.0,72,1,6485342,\N,\N
+316,1991,12,1991-09-08,Italian Grand Prix,monza,Italy,prost,\N,ferrari,5,3,4.0,53,1,4691148,\N,\N
+624,1972,5,1972-06-04,Belgian Grand Prix,nivelles,Belgium,marko,\N,brm,23,10,0.0,83,12,\N,\N,\N
+806,1954,8,1954-09-05,Italian Grand Prix,monza,Italy,kling,\N,mercedes,4,14,0.0,36,3,\N,\N,\N
+754,1960,9,1960-09-04,Italian Grand Prix,monza,Italy,munaron,\N,cooper-castellotti,8,13,0.0,27,5,\N,\N,\N
+711,1964,3,1964-06-14,Belgian Grand Prix,spa,Belgium,jack_brabham,\N,brabham-climax,3,3,4.0,32,1,7648600,\N,\N
+752,1960,7,1960-07-16,British Grand Prix,silverstone,UK,jack_brabham,\N,cooper-climax,1,1,8.0,77,1,7464300,\N,\N
+219,1997,13,1997-09-07,Italian Grand Prix,monza,Italy,michael_schumacher,MSC,ferrari,9,6,1.0,53,1,4636090,\N,\N
+472,1982,6,1982-05-23,Monaco Grand Prix,monaco,Monaco,arnoux,\N,renault,1,19,0.0,14,20,\N,\N,\N
+1085,2022,12,2022-07-24,French Grand Prix,ricard,France,gasly,GAS,alphatauri,14,12,0.0,53,1,5467560,10,212.896
+1039,2020,9,2020-09-13,Tuscan Grand Prix,mugello,Italy,max_verstappen,VER,red_bull,3,19,0.0,0,4,\N,0,\N
+575,1976,16,1976-10-24,Japanese Grand Prix,fuji,Japan,binder,\N,wolf,25,13,0.0,49,36,\N,\N,\N
+366,1989,11,1989-08-27,Belgian Grand Prix,spa,Belgium,alliot,\N,larrousse,11,16,0.0,39,5,\N,\N,\N
+719,1963,1,1963-05-26,Monaco Grand Prix,monaco,Monaco,hall,\N,lotus-brm,13,14,0.0,20,6,\N,\N,\N
+405,1986,2,1986-04-13,Spanish Grand Prix,jerez,Spain,brundle,\N,tyrrell,12,10,0.0,41,5,\N,\N,\N
+596,1974,7,1974-06-09,Swedish Grand Prix,anderstorp,Sweden,pescarolo,\N,brm,19,26,0.0,0,42,\N,\N,\N
+365,1989,10,1989-08-13,Hungarian Grand Prix,hungaroring,Hungary,brundle,\N,brabham,15,12,0.0,75,12,\N,\N,\N
+1144,2024,24,2024-12-08,Abu Dhabi Grand Prix,yas_marina,UAE,lawson,LAW,rb,12,17,0.0,55,5,\N,12,214.212
+642,1971,11,1971-10-03,United States Grand Prix,watkins_glen,USA,marko,\N,brm,16,13,0.0,57,12,\N,\N,\N
+342,2010,6,2010-05-16,Monaco Grand Prix,monaco,Monaco,kubica,KUB,renault,2,3,15.0,78,1,6615030,3,159.568
+498,1980,1,1980-01-13,Argentine Grand Prix,galvez,Argentina,patrese,\N,arrows,7,14,0.0,27,5,\N,\N,\N
+60,2006,8,2006-06-11,British Grand Prix,silverstone,UK,button,BUT,honda,19,19,0.0,8,44,\N,17,217.207
+164,2000,7,2000-06-04,Monaco Grand Prix,monaco,Monaco,zonta,ZON,bar,20,13,0.0,48,20,\N,\N,\N
+640,1971,9,1971-09-05,Italian Grand Prix,monza,Italy,ickx,\N,ferrari,2,17,0.0,15,5,\N,\N,\N
+861,2012,2,2012-03-25,Malaysian Grand Prix,sepang,Malaysia,pic,PIC,marussia,21,20,0.0,54,12,\N,21,190.384
+453,1983,2,1983-03-27,United States Grand Prix West,long_beach,USA,corrado_fabi,\N,osella,0,27,0.0,0,81,\N,\N,\N
+120,2003,13,2003-08-24,Hungarian Grand Prix,hungaroring,Hungary,ralf_schumacher,SCH,williams,2,4,5.0,70,1,5977080,\N,\N
+815,1953,8,1953-08-23,Swiss Grand Prix,bremgarten,Switzerland,hirt,\N,ferrari,17,17,0.0,17,5,\N,\N,\N
+1070,2021,18,2021-11-07,Mexico City Grand Prix,rodriguez,Mexico,alonso,ALO,alpine,12,9,2.0,70,11,\N,10,191.973
+611,1973,7,1973-06-17,Swedish Grand Prix,anderstorp,Sweden,hulme,\N,mclaren,6,1,9.0,80,1,7006049,\N,\N
+941,2015,15,2015-10-11,Russian Grand Prix,sochi,Russia,hamilton,HAM,mercedes,2,1,25.0,53,1,5831024,3,209.328
+830,1951,6,1951-07-29,German Grand Prix,nurburgring,Germany,bonetto,\N,alfa,10,14,0.0,12,121,\N,\N,\N
+154,2001,14,2001-09-02,Belgian Grand Prix,spa,Belgium,coulthard,COU,mclaren,9,2,6.0,36,1,4095100,\N,\N
+410,1986,7,1986-06-22,Detroit Grand Prix,detroit,USA,alboreto,\N,ferrari,11,4,3.0,63,1,6763783,\N,\N
+931,2015,6,2015-05-24,Monaco Grand Prix,monaco,Monaco,ricciardo,RIC,red_bull,4,5,10.0,78,1,6572028,1,153.891
+688,1967,10,1967-10-01,United States Grand Prix,watkins_glen,USA,ickx,\N,cooper-maserati,16,11,0.0,45,25,\N,\N,\N
+998,2018,10,2018-07-08,British Grand Prix,silverstone,UK,stroll,STR,williams,19,12,0.0,52,1,5287890,15,225.927
+619,1973,15,1973-10-07,United States Grand Prix,watkins_glen,USA,stewart,\N,tyrrell,5,26,0.0,0,54,\N,\N,\N
+820,1952,4,1952-07-06,French Grand Prix,essarts,France,rosier,\N,ferrari,9,17,0.0,17,5,\N,\N,\N
+409,1986,6,1986-06-15,Canadian Grand Prix,villeneuve,Canada,brundle,\N,tyrrell,19,9,0.0,67,12,\N,\N,\N
+723,1963,5,1963-07-20,British Grand Prix,silverstone,UK,trevor_taylor,\N,lotus-climax,10,21,0.0,23,48,\N,\N,\N
+577,1975,2,1975-01-26,Brazilian Grand Prix,interlagos,Brazil,peterson,\N,team_lotus,16,15,0.0,38,12,\N,\N,\N
+1105,2023,7,2023-06-04,Spanish Grand Prix,catalunya,Spain,max_verstappen,VER,red_bull,1,1,26.0,66,1,5277940,1,219.641
+830,1951,6,1951-07-29,German Grand Prix,nurburgring,Germany,claes,\N,lago,18,11,0.0,17,13,\N,\N,\N
+71,2005,1,2005-03-06,Australian Grand Prix,albert_park,Australia,albers,ALB,minardi,17,20,0.0,16,6,\N,20,204.960
+182,1999,8,1999-07-11,British Grand Prix,silverstone,UK,irvine,\N,ferrari,4,2,6.0,60,1,5551973,\N,\N
+1072,2021,21,2021-12-05,Saudi Arabian Grand Prix,jeddah,Saudi Arabia,sainz,SAI,ferrari,15,8,4.0,50,1,7621724,7,241.983
+866,2012,7,2012-06-10,Canadian Grand Prix,villeneuve,Canada,alonso,ALO,ferrari,3,5,10.0,70,1,5562997,15,201.742
+547,1977,5,1977-05-08,Spanish Grand Prix,jarama,Spain,hayje,\N,march,0,28,0.0,0,81,\N,\N,\N
+355,2010,19,2010-11-14,Abu Dhabi Grand Prix,yas_marina,UAE,vettel,VET,red_bull,1,1,25.0,55,1,5976837,4,196.526
+278,1993,6,1993-05-23,Monaco Grand Prix,monaco,Monaco,boutsen,\N,jordan,23,24,0.0,12,22,\N,\N,\N
+277,1993,5,1993-05-09,Spanish Grand Prix,catalunya,Spain,zanardi,\N,team_lotus,15,14,0.0,60,5,\N,\N,\N
+321,1990,1,1990-03-11,United States Grand Prix,phoenix,USA,larini,\N,ligier,13,25,0.0,4,37,\N,\N,\N
+1026,2019,17,2019-10-13,Japanese Grand Prix,suzuka,Japan,albon,ALB,red_bull,6,4,12.0,52,1,4966292,8,225.332
+1030,2019,21,2019-12-01,Abu Dhabi Grand Prix,yas_marina,UAE,giovinazzi,GIO,alfa,16,16,0.0,54,11,\N,15,193.639
+856,2011,16,2011-10-16,Korean Grand Prix,yeongam,Korea,alguersuari,ALG,toro_rosso,11,7,6.0,55,1,5931532,8,200.257
+677,1968,11,1968-10-06,United States Grand Prix,watkins_glen,USA,elford,\N,cooper-brm,17,12,0.0,71,5,\N,\N,\N
+298,1992,10,1992-07-26,German Grand Prix,hockenheimring,Germany,cesaris,\N,tyrrell,20,18,0.0,25,5,\N,\N,\N
+633,1971,2,1971-04-18,Spanish Grand Prix,montjuic,Spain,gethin,\N,mclaren,7,8,0.0,73,12,\N,\N,\N
+449,1984,14,1984-09-09,Italian Grand Prix,monza,Italy,prost,\N,mclaren,2,25,0.0,3,5,\N,\N,\N
+380,1988,9,1988-07-24,German Grand Prix,hockenheimring,Germany,ghinzani,\N,zakspeed,23,14,0.0,42,12,\N,\N,\N
+460,1983,9,1983-07-16,British Grand Prix,silverstone,UK,giacomelli,\N,toleman,12,25,0.0,3,101,\N,\N,\N
+383,1988,12,1988-09-11,Italian Grand Prix,monza,Italy,johansson,\N,ligier,0,28,0.0,0,81,\N,\N,\N
+97,2004,8,2004-06-13,Canadian Grand Prix,villeneuve,Canada,webber,WEB,jaguar,14,15,0.0,6,22,\N,17,204.584
+395,1987,8,1987-07-26,German Grand Prix,hockenheimring,Germany,alliot,\N,larrousse,21,6,1.0,42,12,\N,\N,\N
+308,1991,4,1991-05-12,Monaco Grand Prix,monaco,Monaco,barbazza,\N,ags,0,28,0.0,0,81,\N,\N,\N
+1046,2020,16,2020-12-06,Sakhir Grand Prix,bahrain,Bahrain,stroll,STR,racing_point,10,3,15.0,87,1,5486983,14,222.255
+960,2016,13,2016-08-28,Belgian Grand Prix,spa,Belgium,max_verstappen,VER,red_bull,2,11,0.0,44,1,6362196,7,222.582
+676,1968,10,1968-09-22,Canadian Grand Prix,tremblant,Canada,oliver,\N,lotus-ford,19,13,0.0,32,86,\N,\N,\N
+510,1980,13,1980-09-28,Canadian Grand Prix,villeneuve,Canada,giacomelli,\N,alfa,4,21,0.0,7,83,\N,\N,\N
+499,1980,2,1980-01-27,Brazilian Grand Prix,interlagos,Brazil,regazzoni,\N,ensign,12,21,0.0,13,5,\N,\N,\N
+475,1982,9,1982-07-03,Dutch Grand Prix,zandvoort,Netherlands,giacomelli,\N,alfa,8,11,0.0,70,12,\N,\N,\N
+794,1955,3,1955-05-30,Indianapolis 500,indianapolis,USA,templeman,\N,trevis,31,18,0.0,142,7,\N,\N,\N
+466,1983,15,1983-10-15,South African Grand Prix,kyalami,South Africa,patrese,\N,brabham,3,1,9.0,77,1,5605708,\N,\N
+18,2008,1,2008-03-16,Australian Grand Prix,albert_park,Australia,vettel,VET,toro_rosso,9,20,0.0,0,4,\N,\N,\N
+918,2014,19,2014-11-23,Abu Dhabi Grand Prix,yas_marina,UAE,kevin_magnussen,MAG,mclaren,9,11,0.0,55,1,6032995,10,187.171
+68,2006,16,2006-10-01,Chinese Grand Prix,shanghai,China,yamamoto,YAM,super_aguri,19,16,0.0,52,14,\N,19,192.677
+340,2010,4,2010-04-18,Chinese Grand Prix,shanghai,China,grassi,DIG,virgin,22,19,0.0,8,8,\N,20,173.376
+1017,2019,8,2019-06-23,French Grand Prix,ricard,France,stroll,STR,racing_point,17,13,0.0,52,11,\N,9,221.558
+113,2003,6,2003-05-18,Austrian Grand Prix,red_bull_ring,Austria,matta,\N,toyota,13,10,0.0,68,11,\N,\N,\N
+721,1963,3,1963-06-23,Dutch Grand Prix,zandvoort,Netherlands,siffert,\N,lotus-brm,17,7,0.0,77,13,\N,\N,\N
+307,1991,3,1991-04-28,San Marino Grand Prix,imola,Italy,prost,\N,ferrari,3,26,0.0,0,20,\N,\N,\N
+791,1956,8,1956-09-02,Italian Grand Prix,monza,Italy,fairman,\N,connaught,16,5,2.0,47,13,\N,\N,\N
+900,2014,1,2014-03-16,Australian Grand Prix,albert_park,Australia,perez,PER,force_india,16,10,1.0,57,1,5664626,4,206.088
+6,2009,6,2009-05-24,Monaco Grand Prix,monaco,Monaco,sutil,SUT,force_india,15,14,0.0,77,11,\N,14,157.702
+498,1980,1,1980-01-13,Argentine Grand Prix,galvez,Argentina,angelis,\N,team_lotus,5,19,0.0,7,22,\N,\N,\N
+830,1951,6,1951-07-29,German Grand Prix,nurburgring,Germany,fangio,\N,alfa,3,2,7.0,20,1,12213800,\N,\N
+395,1987,8,1987-07-26,German Grand Prix,hockenheimring,Germany,capelli,\N,march,24,24,0.0,7,5,\N,\N,\N
+464,1983,13,1983-09-11,Italian Grand Prix,monza,Italy,mansell,\N,team_lotus,11,8,0.0,52,1,5086915,\N,\N
+272,1994,16,1994-11-13,Australian Grand Prix,adelaide,Australia,martini,\N,minardi,18,9,0.0,79,12,\N,\N,\N
+465,1983,14,1983-09-25,European Grand Prix,brands_hatch,UK,alboreto,\N,tyrrell,26,17,0.0,64,5,\N,\N,\N
+961,2016,14,2016-09-04,Italian Grand Prix,monza,Italy,raikkonen,RAI,ferrari,4,4,12.0,53,1,4675650,3,242.452
+372,1988,1,1988-04-03,Brazilian Grand Prix,jacarepagua,Brazil,warwick,\N,arrows,11,4,3.0,60,1,5840205,\N,\N
+242,1995,3,1995-04-30,San Marino Grand Prix,imola,Italy,irvine,\N,jordan,7,8,0.0,61,12,\N,\N,\N
+414,1986,11,1986-08-10,Hungarian Grand Prix,hungaroring,Hungary,danner,\N,arrows,21,22,0.0,7,22,\N,\N,\N
+779,1957,4,1957-07-07,French Grand Prix,essarts,France,trintignant,\N,ferrari,8,12,0.0,23,10,\N,\N,\N
+447,1984,12,1984-08-19,Austrian Grand Prix,red_bull_ring,Austria,patrese,\N,alfa,13,10,0.0,48,60,\N,\N,\N
+421,1985,2,1985-04-21,Portuguese Grand Prix,estoril,Portugal,martini,\N,minardi,25,22,0.0,12,20,\N,\N,\N
+886,2013,7,2013-06-09,Canadian Grand Prix,villeneuve,Canada,chilton,CHI,marussia,20,19,0.0,67,13,\N,21,197.315
+69,2006,17,2006-10-08,Japanese Grand Prix,suzuka,Japan,michael_schumacher,MSC,ferrari,2,20,0.0,36,5,\N,2,225.290
+614,1973,10,1973-07-29,Dutch Grand Prix,zandvoort,Netherlands,follmer,\N,shadow,22,10,0.0,67,15,\N,\N,\N
+231,1996,8,1996-06-16,Canadian Grand Prix,villeneuve,Canada,lamy,\N,minardi,19,9,0.0,44,4,\N,\N,\N
+343,2010,7,2010-05-30,Turkish Grand Prix,istanbul,Turkey,alonso,ALO,ferrari,12,8,4.0,58,1,5374164,11,213.493
+262,1994,6,1994-06-12,Canadian Grand Prix,villeneuve,Canada,cesaris,\N,sauber,14,24,0.0,24,51,\N,\N,\N

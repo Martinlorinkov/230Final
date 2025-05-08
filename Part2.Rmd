@@ -1,0 +1,551 @@
+---
+title: "Confidence Interval Explorer"
+output: distill::distill_article
+---
+
+<iframe src="https://abby-flynt.shinyapps.io/ConfidenceLevels_Dashboard_Team3/"
+        width="100%" height="800px" style="border:none; margin-bottom: 40px;"></iframe>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(flexdashboard)
+library(shiny)
+library(ggplot2)
+library(plotly)
+library(DT)
+library(dplyr)
+library(aRtsy)
+library(ggrain)
+library(ggridges)
+library(treemapify)
+library(patchwork)
+library(gghalves)
+data(mtcars)
+str(mtcars)
+StartUp = read.csv("startup_growth_investment_data.csv")
+CAschool = read.csv("CASchools.csv")
+set.seed(230)
+pop1 = rnorm(1000, mean = 5, sd = 1)
+```
+
+Sidebar {.sidebar}
+=====================================  
+
+### Welcome to Part 2
+This dashboard helps you explore **Confidence Intervals** interactively.
+
+
+### Key Formula
+Statistic $\pm$ margin of error  
+$\bar{x} \pm z^* \cdot \left(\frac{\sigma}{\sqrt{n}}\right)$
+
+### Common Z-Scores
+- 90% → z = 1.645  
+- 95% → z = 1.960  
+- 99% → z = 2.576
+
+### Interpretation
+We are X% confident the interval from a to b captures the true mean.
+
+---
+
+Column {data-width=400}
+-------------------------------------
+
+Below are interactive sections to understand how sample size, confidence level, and alpha affect confidence intervals.
+
+Use the sliders and dropdowns to update the plots dynamically.
+
+
+### Definition
+
+A confidence interval is an interval that captures the true parameter for a specified proportion of all repeated samples.
+
+
+### Calculation 
+
+Statistic $\pm$ margin of error
+
+$\bar{x} \pm z^*_{\alpha/2} * \left( \frac{\sigma}{\sqrt{n}} \right)$
+
+
+### Common Z-Scores
+99% confident: z = 2.576
+
+95% confident: z = 1.960
+
+90% confident: z = 1.645
+
+
+### Interpretation
+We are X% confident that the interval from a to b captures the true (parameter).
+
+Using a Confidence Interval
+=====================================  
+    
+Column {data-width=600}
+-------------------------------------
+   
+### Sampling Distribution
+Confidence intervals allow us to obtain a good guess on the value of a parameter. We have created a sampling distribution for sample means below from a population with 
+$\mu$ = 5 and $\sigma$ = 1. You can manipulate the value of n below. 
+
+```{r}
+sliderInput("n", "Sample size (n):", 
+            min = 10, max = 500, value = 30, step = 10)
+
+
+# Sampling distribution graph
+renderPlot({
+  set.seed(230)
+  n = input$n
+  samp.means = NULL
+  
+  # Simulate sampling the population
+  for (i in 1:500) {
+    samp = sample(pop1, n)
+    samp.means[i] = mean(samp)
+  }
+  
+  # Plot the sampling distribution
+  ggplot() + 
+    geom_histogram(aes(x = samp.means, y = after_stat(density)), bins = 25, fill = "purple2", alpha = .75) + 
+    geom_density(aes(x = samp.means), col = "#003865") +
+    xlab("Sample Means") +
+    ylab("Density") +
+    ggtitle("Sampling Distribution of Sample Means")
+}, height = 400)
+```
+
+Column 
+-------------------------------------
+
+### Confidence Interval
+
+We can create a confidence interval for this sampling distribution. Below you can select the confidence level for this interval. The value of n for the sampling distribution you input is reflected in the confidence interval.
+
+```{r}
+selectInput("category", "Choose a Confidence Level:", choices = c("90%", "95%", "99%"))
+```
+
+```{r}
+# Calculate and interpret confidence interval
+renderUI({
+  set.seed(230)
+  n2 = input$n
+  percent = input$category
+  zstar = 1.645
+
+  # Assign corresponding z-star to confidence percentage
+  if (percent == "90%") {
+    zstar = 1.645
+  } else if (percent == "95%") {
+    zstar = 1.96
+  } else if (percent == "99%") {
+    zstar = 2.56
+  }
+  
+  # Simulate sampling the population
+  samp.means = NULL
+  for (i in 1:500) {
+    samp = sample(pop1, n2)
+    samp.means[i] = mean(samp)
+  }
+
+  x_bar = round(mean(samp.means), 3)
+  sigma = 1
+
+  interval_low = round(x_bar - (zstar * sigma / sqrt(n2)), 3)
+  interval_high = round(x_bar + (zstar * sigma / sqrt(n2)), 3)
+
+  # Print output
+  HTML(paste0(
+    "Calculate the Confidence Interval: ", "<br>", 
+    "Lower Bound: ", x_bar, " - ", zstar, " * ", sigma, " / √", n2, " = ", interval_low, "<br>",
+    "Upper Bound: ", x_bar, " + ", zstar, " * ", sigma, " / √", n2, " = ", interval_high, "<br> <br>",
+     "We are ", percent, " confident that the interval from ", interval_low, " to ", interval_high, " captures the true mean of the population."
+  ))
+})
+
+```
+
+
+CI Width Explorer
+=====================================
+
+This graph shows how the confidence interval width changes as you increase the sample size and adjust the confidence level. The curve illustrates how increased sample sizes yield narrower intervals, while higher confidence levels demand wider ones. The dashed vertical line indicates sample size, whereas the dashed horizontal line indicates confidence interval width.
+
+```{r}
+sliderInput("ciN", "Sample Size (n):", min = 10, max = 500, value = 30, step = 10)
+sliderInput("ciLevel", "Confidence Level (%):", min = 80, max = 99, value = 95, step = 1)
+
+# Reactive plot
+renderPlot({
+  n_vals = seq(10, 500, 10)
+  conf_level = input$ciLevel / 100
+  z_val = qnorm(1 - (1 - conf_level) / 2)
+  ci_widths = 2 * z_val * 1 / sqrt(n_vals)
+  
+  df_ci = data.frame(n = n_vals, width = ci_widths)
+
+  ggplot(df_ci, aes(x = n, y = width)) +
+    geom_line(color = "cyan", size = .8) +
+    geom_vline(xintercept = input$ciN, linetype = "dashed", color = "purple") +
+    geom_hline(yintercept = 2 * z_val * 1 / sqrt(input$ciN), linetype = "dashed", color = "purple") +
+    labs(title = paste("CI Width at", input$ciLevel, "% Confidence"),
+         x = "Sample Size (n)",
+         y = "Confidence Interval Width") +
+    theme_minimal()
+}, height = 300
+)
+```
+
+
+
+Confidence Band
+=====================================  
+    
+Column {data-width=600}
+-------------------------------------
+### Confidence Level
+We can also see how higher confidence levels lead to wider intervals below.
+
+```{r}
+sliderInput("confLevel", "Confidence Level (%):",
+            min = 50, max = 99, value = 95, step = 1)
+
+# Interactive Confidence Band Plot
+renderPlot({
+  # Sample data
+  set.seed(123)
+  df <- data.frame(
+    x = 1:100,
+    y = 1:100 + rnorm(100, mean = 0, sd = 20)
+  )
+  
+  ggplot(df, aes(x = x, y = y)) +
+    geom_point() +
+    geom_smooth(method = "lm", level = input$confLevel / 100, color = "purple", fill = "cyan") +
+    theme_minimal() +
+    labs(title = paste("Confidence Level:", input$confLevel, "%"),
+      subtitle = "Band widens as confidence increases", x = "", y = ""
+    )
+}, height = 400)
+```
+
+Alpha
+=====================================     
+There is also a relationship between confidence level and $\alpha$, or significance level. The formula for $\alpha$ is $\alpha$ = 1 - C, or C = 1 - $\alpha$ as seen in the gauge. This is also the formula for the value of $\alpha$ of a one-sided test. For a two-sided test, $\alpha$ is split into two, since both tails are tested. The value of $\alpha$ for one tail in a two-sided test is $\alpha = \frac{1-C}{2}$, or C = 1 - 2$\alpha$.
+
+Row {data-height=600}
+-------------------------------------
+
+### Value of $\alpha$ in a one sided test
+
+```{r}
+sliderInput("alpha", "Alpha:", 
+            min = 0, max = 1, value = 0.05, step = 0.01)
+
+renderGauge({
+  alpha = input$alpha
+  conf = input$conf
+  conf_alpha = (1 - alpha) * 100
+  oneside = 1 - conf
+
+  gauge(value = conf_alpha, min = 0, max = 100, symbol = '%', label = 'Confidence Level', gaugeSectors(
+        success = c(80, 100), warning = c(40, 79), danger = c(0, 39)
+      ))
+})
+```
+
+### Standard Normal Distribution (one-sided)
+```{r}
+# Source: https://www.youtube.com/watch?v=nFZWG8aHSB4&ab_channel=TidyData
+# Made the shaded area change based on z-score
+
+renderPlot({
+  alpha = input$alpha
+  
+  # handle edge cases for shading the graph
+  if (alpha <= 0) {
+    z_val = -4
+  } else if (alpha >= 1) {
+    z_val = 4
+  } else {
+    z_val = qnorm(alpha)
+  }
+  
+  # x-axis and y-axis for the pdf line
+  x <- seq(-4, 4, 0.01)
+  y <- dnorm(x)
+  
+  # x-axis and y-axis for the shaded area
+  x_shaded <- seq(-4, z_val, 0.01)
+  y_shaded <- c(dnorm(x_shaded), 0)
+  x_shaded <- c(x_shaded, z_val)
+  
+  # plot it, alpha sets the level of transparency in color
+  ggplot() + 
+    geom_line(aes(x, y)) +
+    geom_polygon(data = data.frame(x = x_shaded, y = y_shaded), 
+                 aes(x, y), fill = "mediumorchid2", alpha = 0.5) +
+    theme(panel.background = element_rect(fill = 'transparent'),
+          axis.line.x = element_line(color = "black", size = 0.5),
+          axis.line.y = element_line(color = "black", size = 0.5),
+          axis.title.x = element_blank(),
+          axis.title.y = element_blank())
+})
+```
+
+Row {data-height=600}
+-------------------------------------
+   
+### Value of $\alpha$ (for one tail) for a two-sided test
+
+```{r}
+sliderInput("alpha2", "Alpha:", 
+            min = 0, max = 0.5, value = 0.05, step = 0.005)
+
+renderGauge({
+  alpha2 = input$alpha2
+  alpha2side = (1 - 2 * alpha2) * 100
+  
+  
+  gauge(value = alpha2side, min = 0, max = 100, symbol = '%', label = 'Confidence Level', gaugeSectors(
+        success = c(80, 100), warning = c(40, 79), danger = c(0, 39)
+      ))
+})
+```   
+
+### Standard Normal Distribution (two-sided)
+```{r}
+# Source: https://www.youtube.com/watch?v=nFZWG8aHSB4&ab_channel=TidyData
+# Made the shaded area change based on z-score
+
+renderPlot({
+  alpha2 = input$alpha2
+  # handle edge cases for shading the graph
+  if (alpha2 <= 0) {
+    z_val = -3.999
+  } else if (alpha2 >= 0.5) {
+    z_val = 0
+  } else {
+    z_val = qnorm(alpha2)
+  }
+  
+  # x-axis and y-axis for the pdf line
+  x <- seq(-4, 4, 0.01)
+  y <- dnorm(x)
+  
+  # x-axis and y-axis for the shaded area on the left tail
+  x_shaded_left <- seq(-4, z_val, 0.01)
+  y_shaded_left <- c(dnorm(x_shaded_left), 0)
+  x_shaded_left <- c(x_shaded_left, z_val)
+  
+  # x-axis and y-axis for the shaded area on the right tail
+  x_shaded_right <- seq(-z_val, 4, 0.01)
+  y_shaded_right <- c(dnorm(x_shaded_right), 0)
+  x_shaded_right <- c(x_shaded_right, -z_val)
+  
+  # plot it, alpha sets the level of transparency in color
+  ggplot() + 
+    geom_line(aes(x, y)) +
+    geom_polygon(data = data.frame(x = x_shaded_left, y = y_shaded_left), 
+                 aes(x, y), fill = "mediumorchid2", alpha = 0.5) +
+    geom_polygon(data = data.frame(x = x_shaded_right, y = y_shaded_right), 
+                 aes(x, y), fill = "mediumorchid2", alpha = 0.5) +
+    theme(panel.background = element_rect(fill = 'transparent'),
+          axis.line.x = element_line(color = "black", size = 0.5),
+          axis.line.y = element_line(color = "black", size = 0.5),
+          axis.title.x = element_blank(),
+          axis.title.y = element_blank())
+})
+```
+
+
+Z-score {data-orientation=rows}
+=====================================   
+
+### Calculate z-score
+
+A z-score is the number of standard deviations that a value is away from the mean.
+
+**Calculation:**
+
+```{r}
+sliderInput("conflevel", "  1) Choose a confidence level:", 
+            min = 0, max = 100, value = 95, step = 1)
+
+renderGauge({
+  conf = input$conflevel
+  
+  gauge(value = conf, min = 0, max = 100, symbol = '%', label = 'Confidence Level', gaugeSectors(
+        success = c(80, 100), warning = c(40, 79), danger = c(0, 39)
+      ))
+})
+```
+
+2) Calculate the upper tail area:
+
+```{r}
+renderPrint({
+  confprop = input$conflevel / 100
+  tail = (1 - confprop) / 2
+  
+  cat("(1  - ", confprop, ") / 2 = ", tail)
+})
+```
+
+3) Find the complementary area under the curve:
+
+```{r}
+renderPrint({
+  confprop = input$conflevel / 100
+  tail = (1 - confprop) / 2
+  table_val = confprop + tail
+  z_val = round(qnorm(table_val), 3)
+  
+  cat("1 - ", tail, " = ", table_val)
+})
+```
+
+4\) Use the Z-table to find the corresponding z-score:
+
+Take the value calculated in part \(3\) and find it in the Z-table, then add the corresponding row and column values to obtain the z-score. 
+
+
+```{r}
+renderText({
+  confprop = input$conflevel / 100
+  tail = (1 - confprop) / 2
+  table_val = confprop + tail
+  z_val = round(qnorm(table_val), 3)
+  
+  z_val_str = z_val
+  if (z_val == Inf) {
+    z_val_str = "∞"
+  }
+  
+  print(paste0("\n The z-score for a ", input$conflevel, "% confidence level is ", z_val_str, "."))
+})
+```
+
+
+An interesting observation we see is that the z-score for a 100% confidence interval is $\infty$. This makes sense, for if we were to be 100% confident in an observation, then the interval would be (-$\infty , \infty$). This is why we do not use 100% confidence intervals; they tell us nothing about the interval.
+
+Z-Table {data-orientation=rows}
+### Z-Table
+
+
+```{r}
+table_values = matrix(c(
+  0.5000,0.5040,0.5080,0.5120,0.5160,0.5199,0.5239,0.5279,0.5319,0.5359,
+  0.5398,0.5438,0.5478,0.5517,0.5557,0.5596,0.5636,0.5675,0.5714,0.5753,
+  0.5793,0.5832,0.5871,0.5910,0.5948,0.5987,0.6026,0.6064,0.6103,0.6141,
+  0.6179,0.6217,0.6255,0.6293,0.6331,0.6368,0.6406,0.6443,0.6480,0.6517,
+  0.6554,0.6591,0.6628,0.6664,0.6700,0.6736,0.6772,0.6808,0.6844,0.6879,
+  0.6915,0.6950,0.6985,0.7019,0.7054,0.7088,0.7123,0.7157,0.7190,0.7224,
+  0.7257,0.7291,0.7324,0.7357,0.7389,0.7422,0.7454,0.7486,0.7517,0.7549,
+  0.7580,0.7611,0.7642,0.7673,0.7704,0.7734,0.7764,0.7794,0.7823,0.7852,
+  0.7881,0.7910,0.7939,0.7967,0.7995,0.8023,0.8051,0.8078,0.8106,0.8133,
+  0.8159,0.8186,0.8212,0.8238,0.8264,0.8289,0.8315,0.8340,0.8365,0.8389,
+  0.8413,0.8438,0.8461,0.8485,0.8508,0.8531,0.8554,0.8577,0.8599,0.8621,
+  0.8643,0.8665,0.8686,0.8708,0.8729,0.8749,0.8770,0.8790,0.8810,0.8830,
+  0.8849,0.8869,0.8888,0.8907,0.8925,0.8944,0.8962,0.8980,0.8997,0.9015,
+  0.9032,0.9049,0.9066,0.9082,0.9099,0.9115,0.9131,0.9147,0.9162,0.9177,
+  0.9192,0.9207,0.9222,0.9236,0.9251,0.9265,0.9279,0.9292,0.9306,0.9319,
+  0.9332,0.9345,0.9357,0.9370,0.9382,0.9394,0.9406,0.9418,0.9429,0.9441,
+  0.9452,0.9463,0.9474,0.9484,0.9495,0.9505,0.9515,0.9525,0.9535,0.9545,
+  0.9554,0.9564,0.9573,0.9582,0.9591,0.9599,0.9608,0.9616,0.9625,0.9633,
+  0.9641,0.9649,0.9656,0.9664,0.9671,0.9678,0.9686,0.9693,0.9699,0.9706,
+  0.9713,0.9719,0.9726,0.9732,0.9738,0.9744,0.9750,0.9756,0.9761,0.9767,
+  0.9772,0.9778,0.9783,0.9788,0.9793,0.9798,0.9803,0.9808,0.9812,0.9817,
+  0.9821,0.9826,0.9830,0.9834,0.9838,0.9842,0.9846,0.9850,0.9854,0.9857,
+  0.9861,0.9864,0.9868,0.9871,0.9875,0.9878,0.9881,0.9884,0.9887,0.9890,
+  0.9893,0.9896,0.9898,0.9901,0.9904,0.9906,0.9909,0.9911,0.9913,0.9916,
+  0.9918,0.9920,0.9922,0.9925,0.9927,0.9929,0.9931,0.9932,0.9934,0.9936,
+  0.9938,0.9940,0.9941,0.9943,0.9945,0.9946,0.9948,0.9949,0.9951,0.9952,
+  0.9953,0.9955,0.9956,0.9957,0.9959,0.9960,0.9961,0.9962,0.9963,0.9964,
+  0.9965,0.9966,0.9967,0.9968,0.9969,0.9970,0.9971,0.9972,0.9973,0.9974,
+  0.9974,0.9975,0.9976,0.9977,0.9977,0.9978,0.9979,0.9979,0.9980,0.9981,
+  0.9981,0.9982,0.9982,0.9983,0.9984,0.9984,0.9985,0.9985,0.9986,0.9986,
+  0.9987,0.9987,0.9987,0.9988,0.9988,0.9989,0.9989,0.9989,0.9990,0.9990
+), ncol = 10, byrow = TRUE)
+
+# column & row labels
+colnames(table_values) = sprintf("%.2f", seq(0, 0.09, 0.01))
+rownames(table_values) = sprintf("%.1f", seq(0, 3, 0.1))
+
+# store the values in a df and display it
+values_df = as.data.frame(table_values)
+datatable(values_df, 
+          caption = "Z-Table",
+          options = list(pageLength = 50, scrollX = TRUE))
+```
+
+
+---
+
+## Our Teams graph
+
+Below is my teams graph that I found very interesting. It look very well made, and was a very interesting project, exploring the different features of ggplot, and the different graphs that could be made.
+
+
+```{r}
+
+ggplot(mtcars, aes(area = hp, fill = mpg, label = rownames(mtcars))) +
+  geom_treemap() +
+  geom_treemap_text(color = "white", place = "center") +
+  scale_fill_gradient(low = "lightblue", high = "darkblue") +
+  labs(title = "Treemap of Cars by Horsepower and MPG", fill = "Miles per Gallon (mpg)")
+
+
+```
+
+
+## Panorama
+
+This section features two complementary visualizations placed side by side. The first illustrates how startup activity has varied across industries over time, using a colorful density ridge plot. The second shows district income across three California counties, enriched with computer availability data. Together, they demonstrate how diverse datasets and creative plotting techniques can be combined to tell layered data stories.
+
+
+```{r}
+
+g1 = ggplot(StartUp, aes(x = Year.Founded, y = Industry, fill = after_stat(x))) +
+  geom_density_ridges_gradient(scale = 2.5, rel_min_height = 0.05,
+                               quantile_lines = TRUE) +
+  scale_fill_viridis_c(option = "plasma") +
+  labs(title = "",
+       x = "Year Founded",
+       y = "Industry") +
+  theme_minimal()
+
+g2 =  ggplot(CAschool[CAschool$county %in% c("Tulare", "Los Angeles", "Kern"), ],
+       aes(x = county,
+           y = income,
+           fill = county,
+           color = computer)) +
+  geom_rain(alpha = 0.7) +
+  geom_point(position = position_jitter(width = 0.2), size = 2.5) +
+  coord_flip() +
+  scale_fill_manual(values = c("Tulare" = "lightgray",
+                               "Los Angeles" = "red4",
+                               "Kern" = "purple3")) +
+  scale_color_viridis_c(option = "magma", name = "Computers per School") +
+  labs(title = "",
+       x = "County",
+       y = "Average Income (Thousands USD)") +
+  theme_minimal()
+
+# Combine and render patchwork
+combined_plot = g1 + g2
+
+
+```
+
+```{r}
+combined_plot
+```
+
+
+
